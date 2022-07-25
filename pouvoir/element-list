@@ -4,10 +4,12 @@ $dokka.location:com.skillw.pouvoir.api.listener/ScriptListener.Builder///Pointin
 $dokka.location:com.skillw.pouvoir.api.manager.sub.script/ScriptEngineManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/script/ScriptEngineManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/ContainerManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager/Manager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/Manager.Companion.html
+$dokka.location:com.skillw.pouvoir.api.script.engine/PouScriptEngine.Companion///PointingToDeclaration/com/skillw/pouvoir/api/script/engine/PouScriptEngine.Companion.html
 $dokka.location:com.skillw.pouvoir.api.thread/BasicThreadFactory.Builder///PointingToDeclaration/com/skillw/pouvoir/api/thread/BasicThreadFactory.Builder.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Data///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Data.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Flatten///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Flatten.html
 com.skillw.pouvoir
+com.skillw.pouvoir.api
 com.skillw.pouvoir.api.able
 com.skillw.pouvoir.api.annotation
 com.skillw.pouvoir.api.event
@@ -29,14 +31,14 @@ com.skillw.pouvoir.api.thread
 com.skillw.pouvoir.internal.annotation
 com.skillw.pouvoir.internal.command
 com.skillw.pouvoir.internal.database
-com.skillw.pouvoir.internal.engine.groovy
-com.skillw.pouvoir.internal.engine.javascript
 com.skillw.pouvoir.internal.function
 com.skillw.pouvoir.internal.hologram
 com.skillw.pouvoir.internal.hook
 com.skillw.pouvoir.internal.manager
 com.skillw.pouvoir.internal.plugin
 com.skillw.pouvoir.internal.raytrace
+com.skillw.pouvoir.internal.script.groovy
+com.skillw.pouvoir.internal.script.javascript
 com.skillw.pouvoir.util
 taboolib.expansion
 
