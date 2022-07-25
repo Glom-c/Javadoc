@@ -302,13 +302,13 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                         <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code><a href=../status/NumberStatus.html>NumberStatus</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity livingEntity, String slot) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity entity, String slot) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
-                                            <td class="colFirst"><code><a href=../attribute/status/Status.html>Status</a></code>
+                                            <td class="colFirst"><code><a href=../status/Status.html>Status</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#readNBT(Map,Attribute)>readNBT</a>(Map&lt;String, Object&gt; map, <a href=../attribute/Attribute.html>Attribute</a> attribute) </code>
                                             </th>
@@ -318,7 +318,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                         <tr id="i5" class="rowColor">
                                             <td class="colFirst"><code>Object</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../attribute/status/Status.html>Status</a> status, LivingEntity livingEntity) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -334,7 +334,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                         <tr id="i7" class="rowColor">
                                             <td class="colFirst"><code>TellrawJson</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../attribute/status/Status.html>Status</a> status, LivingEntity livingEntity) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -446,7 +446,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                           >
                                     <li class="blockList">
                                         <h4>read</h4>
-                                        <pre class="methodSignature"> <a href=../status/NumberStatus.html>NumberStatus</a> <a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity livingEntity, String slot)</pre>
+                                        <pre class="methodSignature"> <a href=../status/NumberStatus.html>NumberStatus</a> <a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity entity, String slot)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -461,7 +461,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                           >
                                     <li class="blockList">
                                         <h4>readNBT</h4>
-                                        <pre class="methodSignature"> <a href=../attribute/status/Status.html>Status</a> <a href=ReadGroup.html#readNBT(Map,Attribute)>readNBT</a>(Map&lt;String, Object&gt; map, <a href=../attribute/Attribute.html>Attribute</a> attribute)</pre>
+                                        <pre class="methodSignature"> <a href=../status/Status.html>Status</a> <a href=ReadGroup.html#readNBT(Map,Attribute)>readNBT</a>(Map&lt;String, Object&gt; map, <a href=../attribute/Attribute.html>Attribute</a> attribute)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -476,7 +476,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                           >
                                     <li class="blockList">
                                         <h4>placeholder</h4>
-                                        <pre class="methodSignature"> Object <a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../attribute/status/Status.html>Status</a> status, LivingEntity livingEntity)</pre>
+                                        <pre class="methodSignature"> Object <a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -506,7 +506,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                           >
                                     <li class="blockList">
                                         <h4>stat</h4>
-                                        <pre class="methodSignature"> TellrawJson <a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../attribute/status/Status.html>Status</a> status, LivingEntity livingEntity)</pre>
+                                        <pre class="methodSignature"> TellrawJson <a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->

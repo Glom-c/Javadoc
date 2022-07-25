@@ -254,7 +254,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i0" class="altColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTask(Runnable)>runTask</a>(Runnable task) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#task(Function1)>task</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -262,7 +262,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i1" class="rowColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsync(Runnable)>runTaskAsync</a>(Runnable task) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#taskAsync(Function1)>taskAsync</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -270,7 +270,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskLater(Runnable,Long)>runTaskLater</a>(Runnable task, Long delay) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#taskLater(Function1,Long)>taskLater</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -278,7 +278,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncLater(Runnable,Long)>runTaskAsyncLater</a>(Runnable task, Long delay) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#taskAsyncLater(Function1,Long)>taskAsyncLater</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -286,7 +286,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i4" class="altColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskTimer(Runnable,Long,Long)>runTaskTimer</a>(Runnable task, Long delay, Long period) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#taskTimer(Function1,Long,Long)>taskTimer</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay, Long period) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -294,12 +294,60 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <tr id="i5" class="rowColor">
                                             <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncTimer(Runnable,Long,Long)>runTaskAsyncTimer</a>(Runnable task, Long delay, Long period) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#taskAsyncTimer(Function1,Long,Long)>taskAsyncTimer</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay, Long period) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTask(Runnable)>runTask</a>(Runnable runnable) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsync(Runnable)>runTaskAsync</a>(Runnable runnable) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i8" class="altColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskLater(Runnable,Long)>runTaskLater</a>(Runnable runnable, Long delay) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncLater(Runnable,Long)>runTaskAsyncLater</a>(Runnable runnable, Long delay) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskTimer(Runnable,Long,Long)>runTaskTimer</a>(Runnable runnable, Long delay, Long period) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>final static PlatformExecutor.PlatformTask</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncTimer(Runnable,Long,Long)>runTaskAsyncTimer</a>(Runnable runnable, Long delay, Long period) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#placeHolder(String,String,String,String)>placeHolder</a>(String identifier, String author, String version, String path) </code>
@@ -307,7 +355,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i7" class="rowColor">
+                                        <tr id="i13" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#addListener(String,String,String,Boolean,Consumer)>addListener</a>(String key, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec) </code>
@@ -315,7 +363,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i8" class="altColor">
+                                        <tr id="i14" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#addListener(String,String,String,String,Boolean,Consumer)>addListener</a>(String key, String platformStr, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec) </code>
@@ -323,7 +371,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i9" class="rowColor">
+                                        <tr id="i15" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#addListener(String,Platform,Class,Integer,Boolean,Consumer)>addListener</a>(String key, Platform platform, Class&lt;?&gt; event, Integer level, Boolean ignoreCancel, Consumer&lt;Object&gt; exec) </code>
@@ -331,7 +379,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i10" class="altColor">
+                                        <tr id="i16" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#removeListener(String)>removeListener</a>(String key) </code>
@@ -339,7 +387,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i11" class="rowColor">
+                                        <tr id="i17" class="rowColor">
                                             <td class="colFirst"><code>final static Boolean</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#isPluginEnabled(String)>isPluginEnabled</a>(String pluginName) </code>
@@ -347,7 +395,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i12" class="altColor">
+                                        <tr id="i18" class="altColor">
                                             <td class="colFirst"><code>final static Plugin</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getPlugin(String)>getPlugin</a>(String pluginName) </code>
@@ -355,7 +403,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i13" class="rowColor">
+                                        <tr id="i19" class="rowColor">
                                             <td class="colFirst"><code>final static Object</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#static(String)>static</a>(String className) </code>
@@ -363,7 +411,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i14" class="altColor">
+                                        <tr id="i20" class="altColor">
                                             <td class="colFirst"><code>final static Object</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#staticClass(String)>staticClass</a>(String className) </code>
@@ -371,7 +419,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i15" class="rowColor">
+                                        <tr id="i21" class="rowColor">
                                             <td class="colFirst"><code>final static PluginCommand</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#command(String)>command</a>(String name) </code>
@@ -379,7 +427,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i16" class="altColor">
+                                        <tr id="i22" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#regCommand(PluginCommand)>regCommand</a>(PluginCommand command) </code>
@@ -387,7 +435,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i17" class="rowColor">
+                                        <tr id="i23" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#unRegCommand(String)>unRegCommand</a>(String name) </code>
@@ -395,7 +443,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i18" class="altColor">
+                                        <tr id="i24" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncPool(Runnable)>runTaskAsyncPool</a>(Runnable task) </code>
@@ -403,7 +451,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i19" class="rowColor">
+                                        <tr id="i25" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncLaterPool(Runnable,Long)>runTaskAsyncLaterPool</a>(Runnable task, Long delay) </code>
@@ -411,7 +459,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i20" class="altColor">
+                                        <tr id="i26" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#runTaskAsyncTimerPool(Runnable,Long,Long)>runTaskAsyncTimerPool</a>(Runnable task, Long delay, Long period) </code>
@@ -419,7 +467,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i21" class="rowColor">
+                                        <tr id="i27" class="rowColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getItemName(ItemStack,Player)>getItemName</a>(ItemStack itemStack, Player player) </code>
@@ -427,7 +475,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i22" class="altColor">
+                                        <tr id="i28" class="altColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getItemName(ItemStack)>getItemName</a>(ItemStack itemStack) </code>
@@ -435,7 +483,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i23" class="rowColor">
+                                        <tr id="i29" class="rowColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getEnchantName(Enchantment,Player)>getEnchantName</a>(Enchantment enchantment, Player player) </code>
@@ -443,7 +491,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i24" class="altColor">
+                                        <tr id="i30" class="altColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getEnchantName(Enchantment)>getEnchantName</a>(Enchantment enchantment) </code>
@@ -451,7 +499,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i25" class="rowColor">
+                                        <tr id="i31" class="rowColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getPotionEffectName(PotionEffectType,Player)>getPotionEffectName</a>(PotionEffectType potionEffectType, Player player) </code>
@@ -459,7 +507,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i26" class="altColor">
+                                        <tr id="i32" class="altColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#getPotionEffectName(PotionEffectType)>getPotionEffectName</a>(PotionEffectType potionEffectType) </code>
@@ -467,7 +515,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i27" class="rowColor">
+                                        <tr id="i33" class="rowColor">
                                             <td class="colFirst"><code>final static InventoryHolder</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#buildInventoryHolder(Function)>buildInventoryHolder</a>(Function&lt;Unit, Inventory&gt; func) </code>
@@ -475,7 +523,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i28" class="altColor">
+                                        <tr id="i34" class="altColor">
                                             <td class="colFirst"><code>final static Map&lt;String, Object&gt;</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#itemNBTMap(ItemStack,List)>itemNBTMap</a>(ItemStack itemStack, List&lt;String&gt; strList) </code>
@@ -483,7 +531,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i29" class="rowColor">
+                                        <tr id="i35" class="rowColor">
                                             <td class="colFirst"><code>final static Map&lt;String, Object&gt;</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#itemNBTMap(ItemStack)>itemNBTMap</a>(ItemStack itemStack) </code>
@@ -491,7 +539,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i30" class="altColor">
+                                        <tr id="i36" class="altColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#get(String,String)>get</a>(String user, String key) </code>
@@ -499,7 +547,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i31" class="rowColor">
+                                        <tr id="i37" class="rowColor">
                                             <td class="colFirst"><code>final static String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#get(Player,String)>get</a>(Player player, String key) </code>
@@ -507,7 +555,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i32" class="altColor">
+                                        <tr id="i38" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#delete(String,String)>delete</a>(String user, String key) </code>
@@ -515,7 +563,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i33" class="rowColor">
+                                        <tr id="i39" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#delete(Player,String)>delete</a>(Player player, String key) </code>
@@ -523,7 +571,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i34" class="altColor">
+                                        <tr id="i40" class="altColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#set(String,String,String)>set</a>(String user, String key, String value) </code>
@@ -531,7 +579,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i35" class="rowColor">
+                                        <tr id="i41" class="rowColor">
                                             <td class="colFirst"><code>final static Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#set(Player,String,String)>set</a>(Player player, String key, String value) </code>
@@ -539,7 +587,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i36" class="altColor">
+                                        <tr id="i42" class="altColor">
                                             <td class="colFirst"><code>final static Array&lt;Object&gt;</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#arrayOf(Object)>arrayOf</a>(Object it) </code>
@@ -547,7 +595,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i37" class="rowColor">
+                                        <tr id="i43" class="rowColor">
                                             <td class="colFirst"><code>final static List&lt;Object&gt;</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#listOf(Object)>listOf</a>(Object it) </code>
@@ -599,6 +647,96 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                             </a>
                                 <h3>Method Detail</h3>
                                 
+                                <a id="task(Function1)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>task</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#task(Function1)>task</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="taskAsync(Function1)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>taskAsync</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#taskAsync(Function1)>taskAsync</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="taskLater(Function1,Long)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>taskLater</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#taskLater(Function1,Long)>taskLater</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="taskAsyncLater(Function1,Long)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>taskAsyncLater</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#taskAsyncLater(Function1,Long)>taskAsyncLater</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="taskTimer(Function1,Long,Long)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>taskTimer</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#taskTimer(Function1,Long,Long)>taskTimer</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay, Long period)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="taskAsyncTimer(Function1,Long,Long)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>taskAsyncTimer</h4>
+                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#taskAsyncTimer(Function1,Long,Long)>taskAsyncTimer</a>(Function1&lt;PlatformExecutor.PlatformTask, Unit&gt; task, Long delay, Long period)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
                                 <a id="runTask(Runnable)">
                                     <!--   -->
                                 </a>
@@ -607,7 +745,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTask</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTask(Runnable)>runTask</a>(Runnable task)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please use 'task'", replaceWith = @ReplaceWith(imports = {}, expression = "task(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTask(Runnable)>runTask</a>(Runnable runnable)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -622,7 +760,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTaskAsync</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsync(Runnable)>runTaskAsync</a>(Runnable task)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please ues 'taskAsync'", replaceWith = @ReplaceWith(imports = {}, expression = "taskAsync(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsync(Runnable)>runTaskAsync</a>(Runnable runnable)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -637,7 +775,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTaskLater</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskLater(Runnable,Long)>runTaskLater</a>(Runnable task, Long delay)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please ues 'taskLater'", replaceWith = @ReplaceWith(imports = {}, expression = "taskLater(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskLater(Runnable,Long)>runTaskLater</a>(Runnable runnable, Long delay)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -652,7 +790,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTaskAsyncLater</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsyncLater(Runnable,Long)>runTaskAsyncLater</a>(Runnable task, Long delay)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please ues 'taskAsyncLater'", replaceWith = @ReplaceWith(imports = {}, expression = "taskAsyncLater(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsyncLater(Runnable,Long)>runTaskAsyncLater</a>(Runnable runnable, Long delay)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -667,7 +805,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTaskTimer</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskTimer(Runnable,Long,Long)>runTaskTimer</a>(Runnable task, Long delay, Long period)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please ues 'taskTimer'", replaceWith = @ReplaceWith(imports = {}, expression = "taskTimer(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskTimer(Runnable,Long,Long)>runTaskTimer</a>(Runnable runnable, Long delay, Long period)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -682,7 +820,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                           >
                                     <li class="blockList">
                                         <h4>runTaskAsyncTimer</h4>
-                                        <pre class="methodSignature"> final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsyncTimer(Runnable,Long,Long)>runTaskAsyncTimer</a>(Runnable task, Long delay, Long period)</pre>
+                                        <pre class="methodSignature">@Deprecated(message = "Old params; Please ues 'taskAsyncTimer'", replaceWith = @ReplaceWith(imports = {}, expression = "taskAsyncTimer(runnable)")) final static PlatformExecutor.PlatformTask <a href=ScriptTool.html#runTaskAsyncTimer(Runnable,Long,Long)>runTaskAsyncTimer</a>(Runnable runnable, Long delay, Long period)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->

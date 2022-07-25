@@ -224,6 +224,12 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                                             <td class="colLast"></td>
                                         </tr>
                                         
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final Boolean</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=ConfigAttributeBuilder.html#release>release</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
                                     </table>
                                 </div>
                             </li>
@@ -250,7 +256,7 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                                         
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
-                                                        href="#ConfigAttributeBuilder(String,Integer,List,ReadGroup,Boolean)">ConfigAttributeBuilder</a></span>(String key, Integer priority, List&lt;String&gt; names, <a href=../../api/read/ReadGroup.html>ReadGroup</a> readGroup, Boolean isEntity)</code></th>
+                                                        href="#ConfigAttributeBuilder(String,Integer,List,ReadGroup,Boolean,Boolean)">ConfigAttributeBuilder</a></span>(String key, Integer priority, List&lt;String&gt; names, <a href=../../api/read/ReadGroup.html>ReadGroup</a> readGroup, Boolean isEntity, Boolean release)</code></th>
                                                 <td class="colLast"></td>
                                             </tr>
                                         
@@ -344,6 +350,14 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>final Boolean</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ConfigAttributeBuilder.html#getRelease()>getRelease</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
                                             <td class="colFirst"><code>Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ConfigAttributeBuilder.html#register()>register</a>() </code>
@@ -351,7 +365,7 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i6" class="altColor">
+                                        <tr id="i7" class="rowColor">
                                             <td class="colFirst"><code>Map&lt;String, Object&gt;</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ConfigAttributeBuilder.html#serialize()>serialize</a>() </code>
@@ -390,11 +404,11 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                             </a>
                                 <h3>Constructor Detail</h3>
                                 
-                                <a name="ConfigAttributeBuilder(String,Integer,List,ReadGroup,Boolean)"></a>
+                                <a name="ConfigAttributeBuilder(String,Integer,List,ReadGroup,Boolean,Boolean)"></a>
                                 <ul class="blockList">
                                     <li class="blockList">
                                         <h4>ConfigAttributeBuilder</h4>
-                                        <pre>ConfigAttributeBuilder(String key, Integer priority, List&lt;String&gt; names, <a href=../../api/read/ReadGroup.html>ReadGroup</a> readGroup, Boolean isEntity)</pre>
+                                        <pre>ConfigAttributeBuilder(String key, Integer priority, List&lt;String&gt; names, <a href=../../api/read/ReadGroup.html>ReadGroup</a> readGroup, Boolean isEntity, Boolean release)</pre>
                                         <div class="block"></div>
                                         
                                     </li>
@@ -482,6 +496,21 @@ public final class <span class="typeNameLabel"><a href=ConfigAttributeBuilder.ht
                                     <li class="blockList">
                                         <h4>getIsEntity</h4>
                                         <pre class="methodSignature"> final Boolean <a href=ConfigAttributeBuilder.html#getIsEntity()>getIsEntity</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getRelease()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getRelease</h4>
+                                        <pre class="methodSignature"> final Boolean <a href=ConfigAttributeBuilder.html#getRelease()>getRelease</a>()</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
