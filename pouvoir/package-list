@@ -1,6 +1,8 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
+$dokka.location:com.skillw.pouvoir.api.event/ManagerTime.Companion///PointingToDeclaration/com/skillw/pouvoir/api/event/ManagerTime.Companion.html
 $dokka.location:com.skillw.pouvoir.api.listener/ScriptListener.Builder///PointingToDeclaration/com/skillw/pouvoir/api/listener/ScriptListener.Builder.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub.script/CompileManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/script/CompileManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub.script/ScriptEngineManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/script/ScriptEngineManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/ContainerManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager/Manager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/Manager.Companion.html
@@ -37,6 +39,8 @@ com.skillw.pouvoir.internal.hook
 com.skillw.pouvoir.internal.manager
 com.skillw.pouvoir.internal.plugin
 com.skillw.pouvoir.internal.raytrace
+com.skillw.pouvoir.internal.script.common
+com.skillw.pouvoir.internal.script.common.pool
 com.skillw.pouvoir.internal.script.groovy
 com.skillw.pouvoir.internal.script.javascript
 com.skillw.pouvoir.util
