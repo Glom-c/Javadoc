@@ -199,13 +199,13 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                         
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
-                                                        href="#PersistentContainer(Object,Function1)">PersistentContainer</a></span>(Object type, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, Unit&gt; builder)</code></th>
+                                                        href="#PersistentContainer(Object,Function1)">PersistentContainer</a></span>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a> type, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</code></th>
                                                 <td class="colLast">设置源<ul><li><p>传入文件类型则为 SQLite 模式</p></li><li><p>传入 ConfigurationSection 则读取 SQL 配置</p></li></ul></td>
                                             </tr>
                                         
                                             <tr class="rowColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
-                                                        href="#PersistentContainer(String,Integer,String,String,String,Function1)">PersistentContainer</a></span>(String host, Integer port, String user, String password, String database, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, Unit&gt; builder)</code></th>
+                                                        href="#PersistentContainer(String,Integer,String,String,String,Function1)">PersistentContainer</a></span>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> host, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a> port, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> user, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> password, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> database, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</code></th>
                                                 <td class="colLast">设置 SQL 源</td>
                                             </tr>
                                         
@@ -267,39 +267,39 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
-                                            <td class="colFirst"><code>Unit</code>
+                                            <td class="colFirst"><code><a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#container(String,Boolean,Function1)>container</a>(String table, Boolean server, Function1&lt;<a href=ContainerBuilder.html>ContainerBuilder</a>, Unit&gt; builder) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#container(String,Boolean,Function1)>container</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html>Boolean</a> server, Function1&lt;<a href=ContainerBuilder.html>ContainerBuilder</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder) </code>
                                             </th>
                                             <td class="colLast">注册标准容器</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
-                                            <td class="colFirst"><code>Unit</code>
+                                            <td class="colFirst"><code><a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#strContainer(String)>strContainer</a>(String table) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#strContainer(String)>strContainer</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table) </code>
                                             </th>
                                             <td class="colLast">注册标准容器</td>
                                         </tr>
                                         
                                         <tr id="i3" class="rowColor">
-                                            <td class="colFirst"><code>Unit</code>
+                                            <td class="colFirst"><code><a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#flatContainer(String,Function1)>flatContainer</a>(String table, Function1&lt;<a href=ContainerBuilder.Flatten.html>ContainerBuilder.Flatten</a>, Unit&gt; builder) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#flatContainer(String,Function1)>flatContainer</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table, Function1&lt;<a href=ContainerBuilder.Flatten.html>ContainerBuilder.Flatten</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder) </code>
                                             </th>
                                             <td class="colLast">注册扁平容器</td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
-                                            <td class="colFirst"><code>final &lt;T extends Any&gt; <a href=IContainerOperator.html>IContainerOperator</a>&lt;<a href=PersistentContainer.html#get(String)>T</a>&gt;</code>
+                                            <td class="colFirst"><code>final &lt;T extends <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html>Any</a>&gt; <a href=IContainerOperator.html>IContainerOperator</a>&lt;<a href=PersistentContainer.html#get(String)>T</a>&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#get(String)>get</a>(String table) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#get(String)>get</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table) </code>
                                             </th>
                                             <td class="colLast">获取控制器</td>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
-                                            <td class="colFirst"><code>final Unit</code>
+                                            <td class="colFirst"><code>final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PersistentContainer.html#close()>close</a>() </code>
                                             </th>
@@ -341,7 +341,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                 <ul class="blockList">
                                     <li class="blockList">
                                         <h4>PersistentContainer</h4>
-                                        <pre>PersistentContainer(Object type, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, Unit&gt; builder)</pre>
+                                        <pre>PersistentContainer(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a> type, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</pre>
                                         <div class="block">设置源<ul><li><p>传入文件类型则为 SQLite 模式</p></li><li><p>传入 ConfigurationSection 则读取 SQL 配置</p></li></ul></div>
                                         
                                     </li>
@@ -351,7 +351,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                 <ul class="blockList">
                                     <li class="blockList">
                                         <h4>PersistentContainer</h4>
-                                        <pre>PersistentContainer(String host, Integer port, String user, String password, String database, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, Unit&gt; builder)</pre>
+                                        <pre>PersistentContainer(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> host, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a> port, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> user, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> password, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> database, Function1&lt;<a href=PersistentContainer.html>PersistentContainer</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</pre>
                                         <div class="block">设置 SQL 源</div>
                                         
                                     </li>
@@ -393,7 +393,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                           >
                                     <li class="blockList">
                                         <h4>container</h4>
-                                        <pre class="methodSignature"> Unit <a href=PersistentContainer.html#container(String,Boolean,Function1)>container</a>(String table, Boolean server, Function1&lt;<a href=ContainerBuilder.html>ContainerBuilder</a>, Unit&gt; builder)</pre>
+                                        <pre class="methodSignature"> <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=PersistentContainer.html#container(String,Boolean,Function1)>container</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html>Boolean</a> server, Function1&lt;<a href=ContainerBuilder.html>ContainerBuilder</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</pre>
                                         <div class="block"><p>注册标准容器</p></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -408,7 +408,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                           >
                                     <li class="blockList">
                                         <h4>strContainer</h4>
-                                        <pre class="methodSignature"> Unit <a href=PersistentContainer.html#strContainer(String)>strContainer</a>(String table)</pre>
+                                        <pre class="methodSignature"> <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=PersistentContainer.html#strContainer(String)>strContainer</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table)</pre>
                                         <div class="block"><p>注册标准容器</p></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -423,7 +423,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                           >
                                     <li class="blockList">
                                         <h4>flatContainer</h4>
-                                        <pre class="methodSignature"> Unit <a href=PersistentContainer.html#flatContainer(String,Function1)>flatContainer</a>(String table, Function1&lt;<a href=ContainerBuilder.Flatten.html>ContainerBuilder.Flatten</a>, Unit&gt; builder)</pre>
+                                        <pre class="methodSignature"> <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=PersistentContainer.html#flatContainer(String,Function1)>flatContainer</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table, Function1&lt;<a href=ContainerBuilder.Flatten.html>ContainerBuilder.Flatten</a>, <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a>&gt; builder)</pre>
                                         <div class="block"><p>注册扁平容器</p></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -438,7 +438,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                           >
                                     <li class="blockList">
                                         <h4>get</h4>
-                                        <pre class="methodSignature"> final &lt;T extends Any&gt; <a href=IContainerOperator.html>IContainerOperator</a>&lt;<a href=PersistentContainer.html#get(String)>T</a>&gt; <a href=PersistentContainer.html#get(String)>get</a>(String table)</pre>
+                                        <pre class="methodSignature"> final &lt;T extends <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-any/index.html>Any</a>&gt; <a href=IContainerOperator.html>IContainerOperator</a>&lt;<a href=PersistentContainer.html#get(String)>T</a>&gt; <a href=PersistentContainer.html#get(String)>get</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> table)</pre>
                                         <div class="block"><p>获取控制器</p></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -453,7 +453,7 @@ public final class <span class="typeNameLabel"><a href=PersistentContainer.html>
                                           >
                                     <li class="blockList">
                                         <h4>close</h4>
-                                        <pre class="methodSignature"> final Unit <a href=PersistentContainer.html#close()>close</a>()</pre>
+                                        <pre class="methodSignature"> final <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=PersistentContainer.html#close()>close</a>()</pre>
                                         <div class="block"><p>关闭容器</p></div>
                                         
                                         <!-- TODO missing return annotation -->
