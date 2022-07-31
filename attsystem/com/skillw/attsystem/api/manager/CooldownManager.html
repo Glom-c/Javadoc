@@ -138,9 +138,9 @@ var pathtoroot = "../../../../../";
                     <pre class="wrap-overflow">
 
 public abstract class <span class="typeNameLabel"><a href=CooldownManager.html>CooldownManager</a></span>
-extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
+extends BaseMap&lt;UUID, BaseMap&lt;Material, <a href=CooldownManager.CooldownTime.html>CooldownManager.CooldownTime</a>&gt;&gt; implements Manager
                     </pre>
-                    <div class="block"></div>
+                    <div class="block"><p>Cooldown manager</p></div>
                 </li>
             </ul>
         </div>
@@ -162,6 +162,13 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                             <th class="colFirst" scope="col">Modifier and Type</th>
                                             <th class="colSecond" scope="col">Class</th>
                                             <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>public final class</code></td>
+                                            <th class="colSecond" scope="row"><code><a href="CooldownManager.CooldownTime.html">CooldownManager.CooldownTime</a></span></code>
+                                            </th>
+                                            <td class="colLast"><p>Cooldown time</p></td>
                                         </tr>
                                         
                                     </table>
@@ -214,7 +221,7 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
                                                         href="#CooldownManager()">CooldownManager</a></span>()</code></th>
-                                                <td class="colLast"></td>
+                                                <td class="colLast">Create empty Cooldown manager</td>
                                             </tr>
                                         
 
@@ -269,113 +276,97 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                         <tr id="i0" class="altColor">
                                             <td class="colFirst"><code>abstract Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#push(UUID,Material,Double)>push</a>(UUID key, Material material, Double time) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#remove(UUID,Material)>remove</a>(UUID key, Material material) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">删除</td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
                                             <td class="colFirst"><code>abstract Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#push(Player,Material,Double)>push</a>(Player player, Material material, Double time) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#remove(Player,Material)>remove</a>(Player player, Material material) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Remove</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
-                                            <td class="colFirst"><code>abstract Unit</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#remove(UUID,Material)>remove</a>(UUID key, Material material) </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i3" class="rowColor">
-                                            <td class="colFirst"><code>abstract Unit</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#remove(Player,Material)>remove</a>(Player player, Material material) </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i4" class="altColor">
                                             <td class="colFirst"><code>abstract Double</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=CooldownManager.html#pull(UUID,Material)>pull</a>(UUID key, Material material) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">获取玩家 已度过冷却时间/总冷却时间</td>
                                         </tr>
                                         
-                                        <tr id="i5" class="rowColor">
+                                        <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code>abstract Double</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=CooldownManager.html#pull(Player,Material)>pull</a>(Player player, Material material) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">拉去玩家 已度过冷却时间/总冷却时间 （会删除）</td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
+                                            <td class="colFirst"><code>abstract Integer</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,Material)>getItemCoolDown</a>(Player player, Material material) </code>
+                                            </th>
+                                            <td class="colLast">获取玩家某个材质的冷却 (tick)</td>
+                                        </tr>
+                                        
+                                        <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>abstract Integer</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,Integer)>getItemCoolDown</a>(Player player, Integer slot) </code>
+                                            </th>
+                                            <td class="colLast">Get item cool down</td>
                                         </tr>
                                         
                                         <tr id="i6" class="altColor">
                                             <td class="colFirst"><code>abstract Integer</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,Material)>getItemCoolDown</a>(Player player, Material material) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,ItemStack)>getItemCoolDown</a>(Player player, ItemStack itemStack) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Get item cool down</td>
                                         </tr>
                                         
                                         <tr id="i7" class="rowColor">
-                                            <td class="colFirst"><code>abstract Integer</code>
+                                            <td class="colFirst"><code>abstract Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,Integer)>getItemCoolDown</a>(Player player, Integer slot) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,Material,Double)>setItemCoolDown</a>(Player player, Material material, Double attackSpeed) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Set item cool down</td>
                                         </tr>
                                         
                                         <tr id="i8" class="altColor">
-                                            <td class="colFirst"><code>abstract Integer</code>
+                                            <td class="colFirst"><code>abstract Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#getItemCoolDown(Player,ItemStack)>getItemCoolDown</a>(Player player, ItemStack itemStack) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,Integer,Double)>setItemCoolDown</a>(Player player, Integer slot, Double attackSpeed) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Set item cool down</td>
                                         </tr>
                                         
                                         <tr id="i9" class="rowColor">
                                             <td class="colFirst"><code>abstract Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,Material,Double)>setItemCoolDown</a>(Player player, Material material, Double attackSpeed) </code>
+                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,ItemStack,Double)>setItemCoolDown</a>(Player player, ItemStack itemStack, Double attackSpeed) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Set item cool down</td>
                                         </tr>
                                         
                                         <tr id="i10" class="altColor">
-                                            <td class="colFirst"><code>abstract Unit</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,Integer,Double)>setItemCoolDown</a>(Player player, Integer slot, Double attackSpeed) </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i11" class="rowColor">
-                                            <td class="colFirst"><code>abstract Unit</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=CooldownManager.html#setItemCoolDown(Player,ItemStack,Double)>setItemCoolDown</a>(Player player, ItemStack itemStack, Double attackSpeed) </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i12" class="altColor">
                                             <td class="colFirst"><code>abstract Boolean</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=CooldownManager.html#isItemCoolDown(Player,ItemStack)>isItemCoolDown</a>(Player player, ItemStack itemStack) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Is item cool down</td>
                                         </tr>
                                         
-                                        <tr id="i13" class="rowColor">
+                                        <tr id="i11" class="rowColor">
                                             <td class="colFirst"><code>abstract Boolean</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=CooldownManager.html#isItemCoolDown(Player,Integer)>isItemCoolDown</a>(Player player, Integer slot) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Is item cool down</td>
                                         </tr>
                                         
                                         </tbody>
@@ -414,7 +405,7 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>CooldownManager</h4>
                                         <pre>CooldownManager()</pre>
-                                        <div class="block"></div>
+                                        <div class="block">Create empty Cooldown manager</div>
                                         
                                     </li>
                                 </ul>
@@ -432,36 +423,6 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                             </a>
                                 <h3>Method Detail</h3>
                                 
-                                <a id="push(UUID,Material,Double)">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>push</h4>
-                                        <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#push(UUID,Material,Double)>push</a>(UUID key, Material material, Double time)</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
-                                <a id="push(Player,Material,Double)">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>push</h4>
-                                        <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#push(Player,Material,Double)>push</a>(Player player, Material material, Double time)</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
                                 <a id="remove(UUID,Material)">
                                     <!--   -->
                                 </a>
@@ -471,7 +432,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>remove</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#remove(UUID,Material)>remove</a>(UUID key, Material material)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>删除</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - UUID</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -486,7 +460,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>remove</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#remove(Player,Material)>remove</a>(Player player, Material material)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Remove</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -501,7 +488,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>pull</h4>
                                         <pre class="methodSignature"> abstract Double <a href=CooldownManager.html#pull(UUID,Material)>pull</a>(UUID key, Material material)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>获取玩家 已度过冷却时间/总冷却时间</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - UUID</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -516,7 +516,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>pull</h4>
                                         <pre class="methodSignature"> abstract Double <a href=CooldownManager.html#pull(Player,Material)>pull</a>(Player player, Material material)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>拉去玩家 已度过冷却时间/总冷却时间 （会删除）</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -531,7 +544,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>getItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Integer <a href=CooldownManager.html#getItemCoolDown(Player,Material)>getItemCoolDown</a>(Player player, Material material)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>获取玩家某个材质的冷却 (tick)</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -546,7 +572,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>getItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Integer <a href=CooldownManager.html#getItemCoolDown(Player,Integer)>getItemCoolDown</a>(Player player, Integer slot)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Get item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -561,7 +600,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>getItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Integer <a href=CooldownManager.html#getItemCoolDown(Player,ItemStack)>getItemCoolDown</a>(Player player, ItemStack itemStack)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Get item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>itemStack</code> - 物品</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -576,7 +628,24 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>setItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#setItemCoolDown(Player,Material,Double)>setItemCoolDown</a>(Player player, Material material, Double attackSpeed)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Set item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>material</code> - 材质</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attackSpeed</code> - 攻击速度 (秒)</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -591,7 +660,24 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>setItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#setItemCoolDown(Player,Integer,Double)>setItemCoolDown</a>(Player player, Integer slot, Double attackSpeed)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Set item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attackSpeed</code> - 攻击速度 (秒)</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -606,7 +692,24 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>setItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=CooldownManager.html#setItemCoolDown(Player,ItemStack,Double)>setItemCoolDown</a>(Player player, ItemStack itemStack, Double attackSpeed)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Set item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>itemStack</code> - 物品</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attackSpeed</code> - 攻击速度 (秒)</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -621,7 +724,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>isItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Boolean <a href=CooldownManager.html#isItemCoolDown(Player,ItemStack)>isItemCoolDown</a>(Player player, ItemStack itemStack)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Is item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>itemStack</code> - 物品</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -636,7 +752,20 @@ extends BaseMap&lt;UUID, BaseMap&lt;Material, Double&gt;&gt; implements Manager
                                     <li class="blockList">
                                         <h4>isItemCoolDown</h4>
                                         <pre class="methodSignature"> abstract Boolean <a href=CooldownManager.html#isItemCoolDown(Player,Integer)>isItemCoolDown</a>(Player player, Integer slot)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Is item cool down</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

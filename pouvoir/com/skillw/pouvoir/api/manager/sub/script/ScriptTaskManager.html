@@ -277,7 +277,7 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTaskManager.html#getWorkingTasks()>getWorkingTasks</a>() </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Working tasks</td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
@@ -285,7 +285,7 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTaskManager.html#initPool(PouCompiledScript)>initPool</a>(<a href=../../../../internal/script/common/PouCompiledScript.html>PouCompiledScript</a> script) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Init pool</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
@@ -293,7 +293,7 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTaskManager.html#start(PouCompiledScript,String,Map,Object)>start</a>(<a href=../../../../internal/script/common/PouCompiledScript.html>PouCompiledScript</a> script, String function, Map&lt;String, Object&gt; arguments, Object parameters) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Start</td>
                                         </tr>
                                         
                                         </tbody>
@@ -359,7 +359,7 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                     <li class="blockList">
                                         <h4>getWorkingTasks</h4>
                                         <pre class="methodSignature"> abstract List&lt;String&gt; <a href=ScriptTaskManager.html#getWorkingTasks()>getWorkingTasks</a>()</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Working tasks</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -374,7 +374,16 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                     <li class="blockList">
                                         <h4>initPool</h4>
                                         <pre class="methodSignature"> abstract Unit <a href=ScriptTaskManager.html#initPool(PouCompiledScript)>initPool</a>(<a href=../../../../internal/script/common/PouCompiledScript.html>PouCompiledScript</a> script)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Init pool</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>script</code> - 预编译脚本</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -389,7 +398,28 @@ extends <a href=../../../map/KeyMap.html>KeyMap</a>&lt;String, <a href=../../../
                                     <li class="blockList">
                                         <h4>start</h4>
                                         <pre class="methodSignature"> abstract <a href=../../../../internal/script/common/pool/TaskStatus.html>TaskStatus</a> <a href=ScriptTaskManager.html#start(PouCompiledScript,String,Map,Object)>start</a>(<a href=../../../../internal/script/common/PouCompiledScript.html>PouCompiledScript</a> script, String function, Map&lt;String, Object&gt; arguments, Object parameters)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Start</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>script</code> - 预编译脚本</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>function</code> - 函数名</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>arguments</code> - 参数</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>parameters</code> - 函数参数</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

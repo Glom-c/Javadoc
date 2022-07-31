@@ -371,7 +371,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#addListener(String,String,String,Boolean,Consumer)>addListener</a>(String key, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">注册监听器</td>
                                         </tr>
                                         
                                         <tr id="i16" class="altColor">
@@ -379,7 +379,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#addListener(String,String,String,String,Boolean,Consumer)>addListener</a>(String key, String platformStr, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">注册监听器</td>
                                         </tr>
                                         
                                         <tr id="i17" class="rowColor">
@@ -395,7 +395,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#removeListener(String)>removeListener</a>(String key) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">注销监听器</td>
                                         </tr>
                                         
                                         <tr id="i19" class="rowColor">
@@ -531,7 +531,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#get(String,String)>get</a>(String user, String key) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">从数据库获取用户数据</td>
                                         </tr>
                                         
                                         <tr id="i36" class="altColor">
@@ -539,7 +539,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#get(Player,String)>get</a>(Player player, String key) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">获取用户数据库</td>
                                         </tr>
                                         
                                         <tr id="i37" class="rowColor">
@@ -547,7 +547,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#delete(String,String)>delete</a>(String user, String key) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">从数据库删除用户数据</td>
                                         </tr>
                                         
                                         <tr id="i38" class="altColor">
@@ -555,7 +555,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#delete(Player,String)>delete</a>(Player player, String key) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">数据库删除用户数据</td>
                                         </tr>
                                         
                                         <tr id="i39" class="rowColor">
@@ -563,7 +563,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#set(String,String,String)>set</a>(String user, String key, String value) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">向数据库写入用户数据</td>
                                         </tr>
                                         
                                         <tr id="i40" class="altColor">
@@ -571,7 +571,7 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ScriptTool.html#set(Player,String,String)>set</a>(Player player, String key, String value) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">向数据库写入用户数据</td>
                                         </tr>
                                         
                                         <tr id="i41" class="rowColor">
@@ -904,6 +904,27 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#placeHolder(String,String,String,String)>placeHolder</a>(String identifier, String author, String version, String path)</pre>
                                         <div class="block"></div>
                                         
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>identifier</code> - String 识别符</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>author</code> - String 作者</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>version</code> - String 版本</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>path</code> - String 脚本路径::函数名</dd>
+                                            
+                                            
+                                        </dl>
+                                        
                                         <!-- TODO missing return annotation -->
                                     </li>
                                 </ul>
@@ -919,6 +940,31 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#pouPlaceHolder(String,String,String,String,String)>pouPlaceHolder</a>(String identifier, String name, String author, String version, String path)</pre>
                                         <div class="block"></div>
                                         
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>identifier</code> - String 识别符</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>name</code> - String 名称</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>author</code> - String 作者</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>version</code> - String 版本</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>path</code> - String 脚本路径::函数名</dd>
+                                            
+                                            
+                                        </dl>
+                                        
                                         <!-- TODO missing return annotation -->
                                     </li>
                                 </ul>
@@ -932,7 +978,32 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>addListener</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#addListener(String,String,String,Boolean,Consumer)>addListener</a>(String key, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>注册监听器</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - String 用于注销的键</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>path</code> - String 事件类路径</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>eventPriority</code> - String 事件优先级</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>ignoreCancel</code> - Boolean 忽略取消事件</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>exec</code> - Consumer&lt;Any&gt; 事件执行方法</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -947,7 +1018,34 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>addListener</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#addListener(String,String,String,String,Boolean,Consumer)>addListener</a>(String key, String platformStr, String path, String eventPriority, Boolean ignoreCancel, Consumer&lt;Object&gt; exec)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>注册监听器</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - String 用于注销的键</dd>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            <dd><code>path</code> - String 事件类路径</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>eventPriority</code> - String 事件优先级</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>ignoreCancel</code> - Boolean 忽略取消事件</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>exec</code> - Consumer&lt;Any&gt; 事件执行方法</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -977,7 +1075,16 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>removeListener</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#removeListener(String)>removeListener</a>(String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>注销监听器</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1232,7 +1339,20 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>get</h4>
                                         <pre class="methodSignature"> final static String <a href=ScriptTool.html#get(String,String)>get</a>(String user, String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>从数据库获取用户数据</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>user</code> - String 用户名</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1247,7 +1367,20 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>get</h4>
                                         <pre class="methodSignature"> final static String <a href=ScriptTool.html#get(Player,String)>get</a>(Player player, String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>获取用户数据库</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - Player 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1262,7 +1395,20 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>delete</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#delete(String,String)>delete</a>(String user, String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>从数据库删除用户数据</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>user</code> - String 用户名</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1277,7 +1423,20 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>delete</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#delete(Player,String)>delete</a>(Player player, String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>数据库删除用户数据</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - Player 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1292,7 +1451,24 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>set</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#set(String,String,String)>set</a>(String user, String key, String value)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>向数据库写入用户数据</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>user</code> - String 用户名</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>value</code> - String 数据</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -1307,7 +1483,24 @@ extends <a href=../map/BaseMap.html>BaseMap</a>&lt;String, Any&gt;
                                     <li class="blockList">
                                         <h4>set</h4>
                                         <pre class="methodSignature"> final static Unit <a href=ScriptTool.html#set(Player,String,String)>set</a>(Player player, String key, String value)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>向数据库写入用户数据</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>player</code> - Player 玩家</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>key</code> - String 键</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>value</code> - String 数据</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

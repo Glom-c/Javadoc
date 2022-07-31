@@ -8,6 +8,7 @@ $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager.Companion///
 $dokka.location:com.skillw.pouvoir.api.manager/Manager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/Manager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.thread/BasicThreadFactory.Builder///PointingToDeclaration/com/skillw/pouvoir/api/thread/BasicThreadFactory.Builder.html
 $dokka.location:com.skillw.pouvoir.internal.hologram/ConcurrentHashSet.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/hologram/ConcurrentHashSet.Companion.html
+$dokka.location:com.skillw.pouvoir.internal.hologram/PouHolo.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/hologram/PouHolo.Companion.html
 $dokka.location:com.skillw.pouvoir.internal.script.common.pool/TaskStatus.ScriptTask///PointingToDeclaration/com/skillw/pouvoir/internal/script/common/pool/TaskStatus.ScriptTask.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Data///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Data.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Flatten///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Flatten.html

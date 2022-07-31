@@ -130,7 +130,7 @@ var pathtoroot = "../../../../../";
 public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>BaseOperation</a></span>
  implements Registrable&lt;String&gt;, <a href=Operation.html>Operation</a>
                     </pre>
-                    <div class="block"></div>
+                    <div class="block"><p>Base operation</p></div>
                 </li>
             </ul>
         </div>
@@ -216,7 +216,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
                                                         href="#BaseOperation(String)">BaseOperation</a></span>(String key)</code></th>
-                                                <td class="colLast"></td>
+                                                <td class="colLast">Create empty Base operation</td>
                                             </tr>
                                         
 
@@ -273,7 +273,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=BaseOperation.html#getRelease()>getRelease</a>() </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">是否在重载时删除</td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
@@ -281,7 +281,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=BaseOperation.html#setRelease(Boolean)>setRelease</a>(Boolean release) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">是否在重载时删除</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
@@ -295,9 +295,9 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                         <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code>abstract Number</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BaseOperation.html#calculate(Number,Number)>calculate</a>(Number a, Number b) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BaseOperation.html#operate(Number,Number)>operate</a>(Number a, Number b) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">做运算</td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
@@ -305,7 +305,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=BaseOperation.html#element(Number)>element</a>(Number number) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">构成运算元素 (可以理解成 运算符 + 数)</td>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
@@ -352,7 +352,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                     <li class="blockList">
                                         <h4>BaseOperation</h4>
                                         <pre>BaseOperation(String key)</pre>
-                                        <div class="block"></div>
+                                        <div class="block">Create empty Base operation</div>
                                         
                                     </li>
                                 </ul>
@@ -379,7 +379,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                     <li class="blockList">
                                         <h4>getRelease</h4>
                                         <pre class="methodSignature"> final Boolean <a href=BaseOperation.html#getRelease()>getRelease</a>()</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>是否在重载时删除</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -394,7 +394,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                     <li class="blockList">
                                         <h4>setRelease</h4>
                                         <pre class="methodSignature"> final Unit <a href=BaseOperation.html#setRelease(Boolean)>setRelease</a>(Boolean release)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>是否在重载时删除</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -415,16 +415,29 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                     </li>
                                 </ul>
                                 
-                                <a id="calculate(Number,Number)">
+                                <a id="operate(Number,Number)">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockList"
                                           >
                                     <li class="blockList">
-                                        <h4>calculate</h4>
-                                        <pre class="methodSignature"> abstract Number <a href=BaseOperation.html#calculate(Number,Number)>calculate</a>(Number a, Number b)</pre>
-                                        <div class="block"></div>
+                                        <h4>operate</h4>
+                                        <pre class="methodSignature"> abstract Number <a href=BaseOperation.html#operate(Number,Number)>operate</a>(Number a, Number b)</pre>
+                                        <div class="block"><p>做运算</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>a</code> - 数字a</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>b</code> - 数字b</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -439,7 +452,7 @@ public abstract class <span class="typeNameLabel"><a href=BaseOperation.html>Bas
                                     <li class="blockList">
                                         <h4>element</h4>
                                         <pre class="methodSignature"> final <a href=OperationElement.html>OperationElement</a> <a href=BaseOperation.html#element(Number)>element</a>(Number number)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>构成运算元素 (可以理解成 运算符 + 数)</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

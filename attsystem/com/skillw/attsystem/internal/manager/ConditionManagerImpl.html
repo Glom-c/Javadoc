@@ -303,33 +303,33 @@ extends <a href=../../api/manager/ConditionManager.html>ConditionManager</a>
                                         <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>Boolean</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#lineConditions(String,String,LivingEntity)>lineConditions</a>(String slot, String requirements, LivingEntity livingEntity) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#lineConditions(String,String,LivingEntity)>lineConditions</a>(String slot, String requirements, LivingEntity entity) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Line conditions单行条件</td>
                                         </tr>
                                         
                                         <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code>Set&lt;String&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionNBT(String,LivingEntity,Map)>conditionNBT</a>(String slot, LivingEntity livingEntity, Map&lt;String, Object&gt; map) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionNBT(String,LivingEntity,Map)>conditionNBT</a>(String slot, LivingEntity entity, Map&lt;String, Object&gt; map) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Condition NBTNBT条件</td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
                                             <td class="colFirst"><code>Boolean</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionLine(String,LivingEntity,String)>conditionLine</a>(String slot, LivingEntity livingEntity, String str) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionLine(String,LivingEntity,String)>conditionLine</a>(String slot, LivingEntity entity, String str) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Condition line单行条件</td>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
                                             <td class="colFirst"><code>Boolean</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionStrings(String,LivingEntity,Collection)>conditionStrings</a>(String slot, LivingEntity livingEntity, Collection&lt;String&gt; strings) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ConditionManagerImpl.html#conditionStrings(String,LivingEntity,Collection)>conditionStrings</a>(String slot, LivingEntity entity, Collection&lt;String&gt; strings) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Condition strings多行条件</td>
                                         </tr>
                                         
                                         <tr id="i6" class="altColor">
@@ -438,8 +438,25 @@ extends <a href=../../api/manager/ConditionManager.html>ConditionManager</a>
                                           >
                                     <li class="blockList">
                                         <h4>lineConditions</h4>
-                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#lineConditions(String,String,LivingEntity)>lineConditions</a>(String slot, String requirements, LivingEntity livingEntity)</pre>
-                                        <div class="block"></div>
+                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#lineConditions(String,String,LivingEntity)>lineConditions</a>(String slot, String requirements, LivingEntity entity)</pre>
+                                        <div class="block"><p>Line conditions</p><p>单行条件</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>requirements</code> - 多个单行条件</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -453,8 +470,25 @@ extends <a href=../../api/manager/ConditionManager.html>ConditionManager</a>
                                           >
                                     <li class="blockList">
                                         <h4>conditionNBT</h4>
-                                        <pre class="methodSignature"> Set&lt;String&gt; <a href=ConditionManagerImpl.html#conditionNBT(String,LivingEntity,Map)>conditionNBT</a>(String slot, LivingEntity livingEntity, Map&lt;String, Object&gt; map)</pre>
-                                        <div class="block"></div>
+                                        <pre class="methodSignature"> Set&lt;String&gt; <a href=ConditionManagerImpl.html#conditionNBT(String,LivingEntity,Map)>conditionNBT</a>(String slot, LivingEntity entity, Map&lt;String, Object&gt; map)</pre>
+                                        <div class="block"><p>Condition NBT</p><p>NBT条件</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>map</code> - NBT</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -468,8 +502,25 @@ extends <a href=../../api/manager/ConditionManager.html>ConditionManager</a>
                                           >
                                     <li class="blockList">
                                         <h4>conditionLine</h4>
-                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#conditionLine(String,LivingEntity,String)>conditionLine</a>(String slot, LivingEntity livingEntity, String str)</pre>
-                                        <div class="block"></div>
+                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#conditionLine(String,LivingEntity,String)>conditionLine</a>(String slot, LivingEntity entity, String str)</pre>
+                                        <div class="block"><p>Condition line</p><p>单行条件</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>str</code> - 字符串</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -483,8 +534,25 @@ extends <a href=../../api/manager/ConditionManager.html>ConditionManager</a>
                                           >
                                     <li class="blockList">
                                         <h4>conditionStrings</h4>
-                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#conditionStrings(String,LivingEntity,Collection)>conditionStrings</a>(String slot, LivingEntity livingEntity, Collection&lt;String&gt; strings)</pre>
-                                        <div class="block"></div>
+                                        <pre class="methodSignature"> Boolean <a href=ConditionManagerImpl.html#conditionStrings(String,LivingEntity,Collection)>conditionStrings</a>(String slot, LivingEntity entity, Collection&lt;String&gt; strings)</pre>
+                                        <div class="block"><p>Condition strings</p><p>多行条件</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>strings</code> - 字符串集</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

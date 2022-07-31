@@ -130,7 +130,7 @@ var pathtoroot = "../../../../../";
 public final class <span class="typeNameLabel"><a href=ReadGroup.html>ReadGroup</a></span>
 extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSerializable
                     </pre>
-                    <div class="block"></div>
+                    <div class="block"><p>Read group</p><p>读取组</p><p>是AttributeSystem默认的读取格式实现，用于读取数字属性</p></div>
                 </li>
             </ul>
         </div>
@@ -280,7 +280,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#getGroupKeys()>getGroupKeys</a>() </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Group keys 捕获组id</td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
@@ -288,7 +288,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#getOperations()>getOperations</a>() </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Operations 捕获组id = 运算格式</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
@@ -304,7 +304,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity entity, String slot) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Read读取单行字符串</td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
@@ -312,7 +312,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#readNBT(Map,Attribute)>readNBT</a>(Map&lt;String, Object&gt; map, <a href=../attribute/Attribute.html>Attribute</a> attribute) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Read NBT</td>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
@@ -320,7 +320,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">Placeholder占位符(读取组内部的，会在 %as_att:属性键_占位符键% 生效)</td>
                                         </tr>
                                         
                                         <tr id="i6" class="altColor">
@@ -336,7 +336,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity) </code>
                                             </th>
-                                            <td class="colLast"></td>
+                                            <td class="colLast">用于指令统计信息 可以直接返回 TellrawJson() 空对象</td>
                                         </tr>
                                         
                                         </tbody>
@@ -377,6 +377,21 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                         <pre>ReadGroup(String key, String totalFormula, List&lt;String&gt; patternStrings, LowerMap&lt;String&gt; placeholders)</pre>
                                         <div class="block"></div>
                                         
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - 键</dd>
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                            
+                                        </dl>
+                                        
                                     </li>
                                 </ul>
                                 
@@ -402,7 +417,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>getGroupKeys</h4>
                                         <pre class="methodSignature"> final HashSet&lt;String&gt; <a href=ReadGroup.html#getGroupKeys()>getGroupKeys</a>()</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Group keys 捕获组id</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -417,7 +432,7 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>getOperations</h4>
                                         <pre class="methodSignature"> final LowerMap&lt;<a href=../operation/BaseOperation.html>BaseOperation</a>&gt; <a href=ReadGroup.html#getOperations()>getOperations</a>()</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Operations 捕获组id = 运算格式</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -447,7 +462,28 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>read</h4>
                                         <pre class="methodSignature"> <a href=../status/NumberStatus.html>NumberStatus</a> <a href=ReadGroup.html#read(String,Attribute,LivingEntity,String)>read</a>(String string, <a href=../attribute/Attribute.html>Attribute</a> attribute, LivingEntity entity, String slot)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Read</p><p>读取单行字符串</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>string</code> - 字符串</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attribute</code> - 属性</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>slot</code> - 槽位</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -462,7 +498,20 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>readNBT</h4>
                                         <pre class="methodSignature"> <a href=../status/Status.html>Status</a> <a href=ReadGroup.html#readNBT(Map,Attribute)>readNBT</a>(Map&lt;String, Object&gt; map, <a href=../attribute/Attribute.html>Attribute</a> attribute)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Read NBT</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>map</code> - NBT</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attribute</code> - 属性</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -477,7 +526,28 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>placeholder</h4>
                                         <pre class="methodSignature"> Object <a href=ReadGroup.html#placeholder(String,Attribute,Status,LivingEntity)>placeholder</a>(String key, <a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>Placeholder</p><p>占位符(读取组内部的，会在 %as_att:属性键_占位符键% 生效)</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - 占位符键</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>attribute</code> - 属性</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>status</code> - 属性状态</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
@@ -507,7 +577,24 @@ extends <a href=ReadPattern.html>ReadPattern</a> implements ConfigurationSeriali
                                     <li class="blockList">
                                         <h4>stat</h4>
                                         <pre class="methodSignature"> TellrawJson <a href=ReadGroup.html#stat(Attribute,Status,LivingEntity)>stat</a>(<a href=../attribute/Attribute.html>Attribute</a> attribute, <a href=../status/Status.html>Status</a> status, LivingEntity entity)</pre>
-                                        <div class="block"></div>
+                                        <div class="block"><p>用于指令统计信息 可以直接返回 TellrawJson() 空对象</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>attribute</code> - 属性</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>status</code> - 属性状态</dd>
+                                            
+                                            
+                                            
+                                            <dd><code>entity</code> - 实体</dd>
+                                            
+                                            
+                                        </dl>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

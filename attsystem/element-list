@@ -8,15 +8,16 @@ $dokka.location:com.skillw.attsystem.api.condition/BaseCondition.Builder///Point
 $dokka.location:com.skillw.attsystem.api.condition/BaseCondition.Companion///PointingToDeclaration/com/skillw/attsystem/api/condition/BaseCondition.Companion.html
 $dokka.location:com.skillw.attsystem.api.condition/BaseCondition.ConditionType///PointingToDeclaration/com/skillw/attsystem/api/condition/BaseCondition.ConditionType.html
 $dokka.location:com.skillw.attsystem.api.condition/ScriptCondition.Companion///PointingToDeclaration/com/skillw/attsystem/api/condition/ScriptCondition.Companion.html
-$dokka.location:com.skillw.attsystem.api.fight.mechanic/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/api/fight/mechanic/FightGroup.Companion.html
-$dokka.location:com.skillw.attsystem.api.fight.mechanic/MechanicData.Companion///PointingToDeclaration/com/skillw/attsystem/api/fight/mechanic/MechanicData.Companion.html
 $dokka.location:com.skillw.attsystem.api.fight.message/Message.Companion///PointingToDeclaration/com/skillw/attsystem/api/fight/message/Message.Companion.html
 $dokka.location:com.skillw.attsystem.api.fight.message/Message.Type///PointingToDeclaration/com/skillw/attsystem/api/fight/message/Message.Type.html
 $dokka.location:com.skillw.attsystem.api.fight/DamageType.Companion///PointingToDeclaration/com/skillw/attsystem/api/fight/DamageType.Companion.html
+$dokka.location:com.skillw.attsystem.api.manager/CooldownManager.CooldownTime///PointingToDeclaration/com/skillw/attsystem/api/manager/CooldownManager.CooldownTime.html
 $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///PointingToDeclaration/com/skillw/attsystem/api/manager/PersonalManager.Companion.html
 $dokka.location:com.skillw.attsystem.api.operation/ScriptOperation.Companion///PointingToDeclaration/com/skillw/attsystem/api/operation/ScriptOperation.Companion.html
 $dokka.location:com.skillw.attsystem.api.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/api/read/ReadGroup.Companion.html
 $dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
+$dokka.location:com.skillw.attsystem.internal.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/FightGroup.Companion.html
+$dokka.location:com.skillw.attsystem.internal.fight/MechanicData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicData.Companion.html
 $dokka.location:com.skillw.attsystem.internal.mechanic/ScriptMechanic.Companion///PointingToDeclaration/com/skillw/attsystem/internal/mechanic/ScriptMechanic.Companion.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASActionBar.Companion.html
 $dokka.location:com.skillw.attsystem.internal.message/ASBossBar.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASBossBar.Companion.html
@@ -39,6 +40,7 @@ com.skillw.attsystem.api.status
 com.skillw.attsystem.internal.annotation
 com.skillw.attsystem.internal.attribute
 com.skillw.attsystem.internal.command
+com.skillw.attsystem.internal.fight
 com.skillw.attsystem.internal.hook.dragoncore
 com.skillw.attsystem.internal.hook.germ
 com.skillw.attsystem.internal.hook.mythicmobs.common
