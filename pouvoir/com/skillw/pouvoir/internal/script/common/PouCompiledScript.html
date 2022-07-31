@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!-- NewPage -->
 <html lang="en"><head>
-    <title>PouCompiledScript 1.4.1 API </title>
+    <title>PouCompiledScript 1.4.1-code API </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="dc.created" content="2020-03-25">
     <link rel="stylesheet" type="text/css" href="../../../../../../stylesheet.css" title="Style">
@@ -173,44 +173,32 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                         </tr>
                                         
                                         <tr class="altColor">
-                                            <td class="colFirst"><code>private  HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;</code></td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#scriptAnnotations>scriptAnnotations</a></code></th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr class="rowColor">
-                                            <td class="colFirst"><code>private final <a href=../../../api/map/BaseMap.html>BaseMap</a>&lt;String, Set&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;&gt;</code></td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#annotationData>annotationData</a></code></th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr class="altColor">
                                             <td class="colFirst"><code>private final String</code></td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#key>key</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr class="rowColor">
-                                            <td class="colFirst"><code>private  Boolean</code></td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#remove()>remove</a></code></th>
+                                            <td class="colFirst"><code>private  HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#scriptAnnotations>scriptAnnotations</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=../../../api/map/BaseMap.html>BaseMap</a>&lt;String, Set&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#annotationData>annotationData</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
                                             <td class="colFirst"><code>private final File</code></td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#file>file</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr class="rowColor">
+                                        <tr class="altColor">
                                             <td class="colFirst"><code>private final String</code></td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#md5>md5</a></code></th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr class="altColor">
-                                            <td class="colFirst"><code>private final List&lt;String&gt;</code></td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#scriptLines>scriptLines</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
@@ -222,7 +210,7 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                         
                                         <tr class="altColor">
                                             <td class="colFirst"><code>private final <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a></code></td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#engine>engine</a></code></th>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#pouEngine>pouEngine</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
@@ -252,7 +240,7 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                         
                                             <tr class="altColor">
                                                 <th class="colConstructorName" scope="row"><code><span class="memberNameLink"><a
-                                                        href="#PouCompiledScript(File,String,List,CompiledScript,PouScriptEngine)">PouCompiledScript</a></span>(File file, String md5, List&lt;String&gt; scriptLines, CompiledScript script, <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> engine)</code></th>
+                                                        href="#PouCompiledScript(File,String,List,CompiledScript,PouScriptEngine)">PouCompiledScript</a></span>(File file, String md5, List&lt;String&gt; scriptLines, CompiledScript script, <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> pouEngine)</code></th>
                                                 <td class="colLast"></td>
                                             </tr>
                                         
@@ -306,30 +294,6 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                         </tr>
                                         
                                         <tr id="i0" class="altColor">
-                                            <td class="colFirst"><code>final HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getScriptAnnotations()>getScriptAnnotations</a>() </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i1" class="rowColor">
-                                            <td class="colFirst"><code>final Unit</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#setScriptAnnotations(HashSet)>setScriptAnnotations</a>(HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt; scriptAnnotations) </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i2" class="altColor">
-                                            <td class="colFirst"><code>final <a href=../../../api/map/BaseMap.html>BaseMap</a>&lt;String, Set&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;&gt;</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getAnnotationData()>getAnnotationData</a>() </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i3" class="rowColor">
                                             <td class="colFirst"><code>String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getKey()>getKey</a>() </code>
@@ -337,23 +301,31 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i4" class="altColor">
-                                            <td class="colFirst"><code>final Boolean</code>
+                                        <tr id="i1" class="rowColor">
+                                            <td class="colFirst"><code>final HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getRemove()>getRemove</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getScriptAnnotations()>getScriptAnnotations</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i5" class="rowColor">
+                                        <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>final Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#setRemove(Boolean)>setRemove</a>(Boolean remove) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#setScriptAnnotations(HashSet)>setScriptAnnotations</a>(HashSet&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt; scriptAnnotations) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i6" class="altColor">
+                                        <tr id="i3" class="rowColor">
+                                            <td class="colFirst"><code>final <a href=../../../api/map/BaseMap.html>BaseMap</a>&lt;String, Set&lt;<a href=../../../api/script/annotation/ScriptAnnotationData.html>ScriptAnnotationData</a>&gt;&gt;</code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getAnnotationData()>getAnnotationData</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i4" class="altColor">
                                             <td class="colFirst"><code>final File</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getFile()>getFile</a>() </code>
@@ -361,7 +333,7 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i7" class="rowColor">
+                                        <tr id="i5" class="rowColor">
                                             <td class="colFirst"><code>final String</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getMd5()>getMd5</a>() </code>
@@ -369,15 +341,7 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i8" class="altColor">
-                                            <td class="colFirst"><code>final List&lt;String&gt;</code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getScriptLines()>getScriptLines</a>() </code>
-                                            </th>
-                                            <td class="colLast"></td>
-                                        </tr>
-                                        
-                                        <tr id="i9" class="rowColor">
+                                        <tr id="i6" class="altColor">
                                             <td class="colFirst"><code>final CompiledScript</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getScript()>getScript</a>() </code>
@@ -385,15 +349,15 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i10" class="altColor">
+                                        <tr id="i7" class="rowColor">
                                             <td class="colFirst"><code>final <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getEngine()>getEngine</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#getPouEngine()>getPouEngine</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i11" class="rowColor">
+                                        <tr id="i8" class="altColor">
                                             <td class="colFirst"><code>final Object</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#invoke(String,Map,Object)>invoke</a>(String function, Map&lt;String, Object&gt; arguments, Object parameters) </code>
@@ -401,23 +365,23 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i12" class="altColor">
+                                        <tr id="i9" class="rowColor">
                                             <td class="colFirst"><code>final Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#onRemove(Function0)>onRemove</a>(Function0&lt;Unit&gt; exec) </code>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#onDeleted(String,Function0)>onDeleted</a>(String key, Function0&lt;Unit&gt; exec) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i13" class="rowColor">
+                                        <tr id="i10" class="altColor">
                                             <td class="colFirst"><code>final Unit</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#remove()>remove</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#delete()>delete</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr id="i14" class="altColor">
+                                        <tr id="i11" class="rowColor">
                                             <td class="colFirst"><code>Unit</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=PouCompiledScript.html#register()>register</a>() </code>
@@ -460,7 +424,7 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                 <ul class="blockList">
                                     <li class="blockList">
                                         <h4>PouCompiledScript</h4>
-                                        <pre>PouCompiledScript(File file, String md5, List&lt;String&gt; scriptLines, CompiledScript script, <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> engine)</pre>
+                                        <pre>PouCompiledScript(File file, String md5, List&lt;String&gt; scriptLines, CompiledScript script, <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> pouEngine)</pre>
                                         <div class="block"></div>
                                         
                                     </li>
@@ -478,6 +442,21 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                 <!--   -->
                             </a>
                                 <h3>Method Detail</h3>
+                                
+                                <a id="getKey()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getKey</h4>
+                                        <pre class="methodSignature"> String <a href=PouCompiledScript.html#getKey()>getKey</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
                                 
                                 <a id="getScriptAnnotations()">
                                     <!--   -->
@@ -524,51 +503,6 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                     </li>
                                 </ul>
                                 
-                                <a id="getKey()">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>getKey</h4>
-                                        <pre class="methodSignature"> String <a href=PouCompiledScript.html#getKey()>getKey</a>()</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
-                                <a id="getRemove()">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>getRemove</h4>
-                                        <pre class="methodSignature"> final Boolean <a href=PouCompiledScript.html#getRemove()>getRemove</a>()</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
-                                <a id="setRemove(Boolean)">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>setRemove</h4>
-                                        <pre class="methodSignature"> final Unit <a href=PouCompiledScript.html#setRemove(Boolean)>setRemove</a>(Boolean remove)</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
                                 <a id="getFile()">
                                     <!--   -->
                                 </a>
@@ -599,21 +533,6 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                     </li>
                                 </ul>
                                 
-                                <a id="getScriptLines()">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>getScriptLines</h4>
-                                        <pre class="methodSignature"> final List&lt;String&gt; <a href=PouCompiledScript.html#getScriptLines()>getScriptLines</a>()</pre>
-                                        <div class="block"></div>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
                                 <a id="getScript()">
                                     <!--   -->
                                 </a>
@@ -629,15 +548,15 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                     </li>
                                 </ul>
                                 
-                                <a id="getEngine()">
+                                <a id="getPouEngine()">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockList"
                                           >
                                     <li class="blockList">
-                                        <h4>getEngine</h4>
-                                        <pre class="methodSignature"> final <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> <a href=PouCompiledScript.html#getEngine()>getEngine</a>()</pre>
+                                        <h4>getPouEngine</h4>
+                                        <pre class="methodSignature"> final <a href=../../../api/script/engine/PouScriptEngine.html>PouScriptEngine</a> <a href=PouCompiledScript.html#getPouEngine()>getPouEngine</a>()</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
@@ -659,30 +578,30 @@ public final class <span class="typeNameLabel"><a href=PouCompiledScript.html>Po
                                     </li>
                                 </ul>
                                 
-                                <a id="onRemove(Function0)">
+                                <a id="onDeleted(String,Function0)">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockList"
                                           >
                                     <li class="blockList">
-                                        <h4>onRemove</h4>
-                                        <pre class="methodSignature"> final Unit <a href=PouCompiledScript.html#onRemove(Function0)>onRemove</a>(Function0&lt;Unit&gt; exec)</pre>
+                                        <h4>onDeleted</h4>
+                                        <pre class="methodSignature"> final Unit <a href=PouCompiledScript.html#onDeleted(String,Function0)>onDeleted</a>(String key, Function0&lt;Unit&gt; exec)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>
                                 </ul>
                                 
-                                <a id="remove()">
+                                <a id="delete()">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockList"
                                           >
                                     <li class="blockList">
-                                        <h4>remove</h4>
-                                        <pre class="methodSignature"> final Unit <a href=PouCompiledScript.html#remove()>remove</a>()</pre>
+                                        <h4>delete</h4>
+                                        <pre class="methodSignature"> final Unit <a href=PouCompiledScript.html#delete()>delete</a>()</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->

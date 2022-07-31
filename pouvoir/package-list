@@ -6,8 +6,9 @@ $dokka.location:com.skillw.pouvoir.api.manager.sub.script/CompileManager.Compani
 $dokka.location:com.skillw.pouvoir.api.manager.sub.script/ScriptEngineManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/script/ScriptEngineManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/ContainerManager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.manager/Manager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/Manager.Companion.html
-$dokka.location:com.skillw.pouvoir.api.script.engine/PouScriptEngine.Companion///PointingToDeclaration/com/skillw/pouvoir/api/script/engine/PouScriptEngine.Companion.html
 $dokka.location:com.skillw.pouvoir.api.thread/BasicThreadFactory.Builder///PointingToDeclaration/com/skillw/pouvoir/api/thread/BasicThreadFactory.Builder.html
+$dokka.location:com.skillw.pouvoir.internal.hologram/ConcurrentHashSet.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/hologram/ConcurrentHashSet.Companion.html
+$dokka.location:com.skillw.pouvoir.internal.script.common.pool/TaskStatus.ScriptTask///PointingToDeclaration/com/skillw/pouvoir/internal/script/common/pool/TaskStatus.ScriptTask.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Data///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Data.html
 $dokka.location:taboolib.expansion/ContainerBuilder.Flatten///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Flatten.html
 com.skillw.pouvoir
@@ -40,9 +41,11 @@ com.skillw.pouvoir.internal.manager
 com.skillw.pouvoir.internal.plugin
 com.skillw.pouvoir.internal.raytrace
 com.skillw.pouvoir.internal.script.common
+com.skillw.pouvoir.internal.script.common.hook
 com.skillw.pouvoir.internal.script.common.pool
 com.skillw.pouvoir.internal.script.groovy
 com.skillw.pouvoir.internal.script.javascript
+com.skillw.pouvoir.internal.script.javascript.impl
 com.skillw.pouvoir.util
 taboolib.expansion
 

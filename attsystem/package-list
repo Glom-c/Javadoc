@@ -16,17 +16,11 @@ $dokka.location:com.skillw.attsystem.api.fight/DamageType.Companion///PointingTo
 $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///PointingToDeclaration/com/skillw/attsystem/api/manager/PersonalManager.Companion.html
 $dokka.location:com.skillw.attsystem.api.operation/ScriptOperation.Companion///PointingToDeclaration/com/skillw/attsystem/api/operation/ScriptOperation.Companion.html
 $dokka.location:com.skillw.attsystem.api.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/api/read/ReadGroup.Companion.html
-$dokka.location:com.skillw.attsystem.internal.annotation/Annotations.Condition///PointingToDeclaration/com/skillw/attsystem/internal/annotation/Annotations.Condition.html
-$dokka.location:com.skillw.attsystem.internal.annotation/Annotations.Mechanic///PointingToDeclaration/com/skillw/attsystem/internal/annotation/Annotations.Mechanic.html
-$dokka.location:com.skillw.attsystem.internal.annotation/Annotations.Operation///PointingToDeclaration/com/skillw/attsystem/internal/annotation/Annotations.Operation.html
-$dokka.location:com.skillw.attsystem.internal.annotation/Annotations.ReadPattern///PointingToDeclaration/com/skillw/attsystem/internal/annotation/Annotations.ReadPattern.html
 $dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
 $dokka.location:com.skillw.attsystem.internal.mechanic/ScriptMechanic.Companion///PointingToDeclaration/com/skillw/attsystem/internal/mechanic/ScriptMechanic.Companion.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASActionBar.Companion.html
 $dokka.location:com.skillw.attsystem.internal.message/ASBossBar.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASBossBar.Companion.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/personal/PersonalData.Companion.html
-$dokka.location:com.skillw.attsystem.util/BukkitAttribute.Companion///PointingToDeclaration/com/skillw/attsystem/util/BukkitAttribute.Companion.html
-$dokka.location:com.skillw.attsystem/AttributeSystem.LevelCondition///PointingToDeclaration/com/skillw/attsystem/AttributeSystem.LevelCondition.html
 com.skillw.attsystem
 com.skillw.attsystem.api
 com.skillw.attsystem.api.attribute
