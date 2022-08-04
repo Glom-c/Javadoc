@@ -47,11 +47,39 @@ $dokka.location:com.skillw.pouvoir.api.event/PouManagerEvent/getTime/#/PointingT
 $dokka.location:com.skillw.pouvoir.api.event/Time.AFTER///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.event/-time/-a-f-t-e-r/index.html
 $dokka.location:com.skillw.pouvoir.api.event/Time.BEFORE///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.event/-time/-b-e-f-o-r-e/index.html
 $dokka.location:com.skillw.pouvoir.api.event/Time///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.event/-time/index.html
+$dokka.location:com.skillw.pouvoir.api.function.context////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.context/index.html
+$dokka.location:com.skillw.pouvoir.api.function.context/Context///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.context/-context/index.html
+$dokka.location:com.skillw.pouvoir.api.function.context/Context/Context/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.context/-context/-context.html
+$dokka.location:com.skillw.pouvoir.api.function.reader////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/index.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/index.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/current/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/current.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/except/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/except.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/hasNext/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/has-next.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/next/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/next.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseAny/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-any.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseArray/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-array.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseBoolean/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-boolean.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseByte/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-byte.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseDouble/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-double.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseFloat/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-float.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseInt/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-int.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseLong/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-long.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseShort/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-short.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/parseString/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/parse-string.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReader/previous/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader/previous.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReaderKt///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader-kt/index.html
+$dokka.location:com.skillw.pouvoir.api.function.reader/IReaderKt/parse/com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function.reader/-i-reader-kt/parse.html
 $dokka.location:com.skillw.pouvoir.api.function////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/index.html
+$dokka.location:com.skillw.pouvoir.api.function/LegacyFunction///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-legacy-function/index.html
+$dokka.location:com.skillw.pouvoir.api.function/LegacyFunction/LegacyFunction/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-legacy-function/-legacy-function.html
+$dokka.location:com.skillw.pouvoir.api.function/LegacyFunction/apply/#kotlin.Array[kotlin.String]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-legacy-function/apply.html
+$dokka.location:com.skillw.pouvoir.api.function/LegacyFunction/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-legacy-function/get-key.html
+$dokka.location:com.skillw.pouvoir.api.function/LegacyFunction/register/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-legacy-function/register.html
 $dokka.location:com.skillw.pouvoir.api.function/PouFunction///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/index.html
-$dokka.location:com.skillw.pouvoir.api.function/PouFunction/PouFunction/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/-pou-function.html
-$dokka.location:com.skillw.pouvoir.api.function/PouFunction/apply/#kotlin.Array[kotlin.String]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/apply.html
+$dokka.location:com.skillw.pouvoir.api.function/PouFunction/PouFunction/#kotlin.String#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/-pou-function.html
+$dokka.location:com.skillw.pouvoir.api.function/PouFunction/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/execute.html
 $dokka.location:com.skillw.pouvoir.api.function/PouFunction/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/get-key.html
+$dokka.location:com.skillw.pouvoir.api.function/PouFunction/getNamespace/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/get-namespace.html
 $dokka.location:com.skillw.pouvoir.api.function/PouFunction/register/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.function/-pou-function/register.html
 $dokka.location:com.skillw.pouvoir.api.hologram////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.hologram/index.html
 $dokka.location:com.skillw.pouvoir.api.hologram/HologramBuilder///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.hologram/-hologram-builder/index.html
@@ -128,9 +156,16 @@ $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager/get/#kotlin.
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager/set/#kotlin.String#kotlin.String#kotlin.Any?/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-container-manager/set.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/InlineFunctionManager///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-inline-function-manager/index.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/InlineFunctionManager/InlineFunctionManager/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-inline-function-manager/-inline-function-manager.html
-$dokka.location:com.skillw.pouvoir.api.manager.sub/InlineFunctionManager/analysis/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-inline-function-manager/analysis.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/InlineFunctionManager/legacyAnalysis/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-inline-function-manager/legacy-analysis.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ListenerManager///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-listener-manager/index.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/ListenerManager/ListenerManager/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-listener-manager/-listener-manager.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/index.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/PouFunctionManager/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/-pou-function-manager.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/getNamespaces/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/get-namespaces.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/parse/#com.skillw.pouvoir.api.function.reader.IReader#kotlin.Array[kotlin.String]#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/parse.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/parse/#com.skillw.pouvoir.api.function.reader.IReader#kotlin.Array[kotlin.String]#kotlin.Function1[com.skillw.pouvoir.api.function.context.Context,kotlin.Unit]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/parse.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/parse/#kotlin.String#kotlin.Array[kotlin.String]#kotlin.Function1[com.skillw.pouvoir.api.function.context.Context,kotlin.Unit]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/parse.html
+$dokka.location:com.skillw.pouvoir.api.manager.sub/PouFunctionManager/parse/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-function-manager/parse.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/PouPlaceHolderAPI///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-place-holder-a-p-i/index.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/PouPlaceHolderAPI/replace/#java.util.UUID#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-place-holder-a-p-i/replace.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub/PouPlaceHolderAPI/replace/#org.bukkit.entity.LivingEntity?#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.manager.sub/-pou-place-holder-a-p-i/replace.html
@@ -219,6 +254,8 @@ $dokka.location:com.skillw.pouvoir.api.map/BaseMap/putAll/#kotlin.collections.Ma
 $dokka.location:com.skillw.pouvoir.api.map/BaseMap/register/#TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-base-map/register.html
 $dokka.location:com.skillw.pouvoir.api.map/BaseMap/remove/#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-base-map/remove.html
 $dokka.location:com.skillw.pouvoir.api.map/BaseMap/set/#TypeParam(bounds=[kotlin.Any])#TypeParam(bounds=[kotlin.Any])/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-base-map/set.html
+$dokka.location:com.skillw.pouvoir.api.map/BaseMap/toMap/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-base-map/to-map.html
+$dokka.location:com.skillw.pouvoir.api.map/BaseMap/toMutableMap/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-base-map/to-mutable-map.html
 $dokka.location:com.skillw.pouvoir.api.map/KeyMap///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-key-map/index.html
 $dokka.location:com.skillw.pouvoir.api.map/KeyMap/KeyMap/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-key-map/-key-map.html
 $dokka.location:com.skillw.pouvoir.api.map/KeyMap/register/#TypeParam(bounds=[com.skillw.pouvoir.api.able.Keyable[TypeParam(bounds=[kotlin.Any])]])/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api.map/-key-map/register.html
@@ -401,6 +438,7 @@ $dokka.location:com.skillw.pouvoir.api.thread/Builder/build/#/PointingToDeclarat
 $dokka.location:com.skillw.pouvoir.api////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api/index.html
 $dokka.location:com.skillw.pouvoir.api/PouvoirAPI///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api/-pouvoir-a-p-i/index.html
 $dokka.location:com.skillw.pouvoir.api/PouvoirAPI/analysis/kotlin.String#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api/-pouvoir-a-p-i/analysis.html
+$dokka.location:com.skillw.pouvoir.api/PouvoirAPI/parse/kotlin.String#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api/-pouvoir-a-p-i/parse.html
 $dokka.location:com.skillw.pouvoir.api/PouvoirAPI/placeholder/kotlin.String#org.bukkit.entity.LivingEntity/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.api/-pouvoir-a-p-i/placeholder.html
 $dokka.location:com.skillw.pouvoir.internal.annotation////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.annotation/index.html
 $dokka.location:com.skillw.pouvoir.internal.annotation/Annotation///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.annotation/-annotation/index.html
@@ -435,6 +473,74 @@ $dokka.location:com.skillw.pouvoir.internal.database/TypeSQLite/getHost/#/Pointi
 $dokka.location:com.skillw.pouvoir.internal.database/TypeSQLite/getTableVar/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.database/-type-s-q-lite/get-table-var.html
 $dokka.location:com.skillw.pouvoir.internal.database/TypeSQLite/host/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.database/-type-s-q-lite/host.html
 $dokka.location:com.skillw.pouvoir.internal.database/TypeSQLite/tableVar/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.database/-type-s-q-lite/table-var.html
+$dokka.location:com.skillw.pouvoir.internal.function.common////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.common/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.common/PouFunc///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.common/-pou-func/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.common/PouFunc/PouFunc/#kotlin.String#kotlin.Array[kotlin.String]#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.common/-pou-func/-pou-func.html
+$dokka.location:com.skillw.pouvoir.internal.function.common/PouFunc/execute/#kotlin.Array[kotlin.Any]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.common/-pou-func/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.common/PouFunc/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.common/-pou-func/get-key.html
+$dokka.location:com.skillw.pouvoir.internal.function.context////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.context/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.context/SimpleContext///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.context/-simple-context/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.context/SimpleContext/SimpleContext/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.context/-simple-context/-simple-context.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.define////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.define/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.define/Set///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.define/-set/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.define/Set/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.define/-set/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Abs///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-abs/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Abs/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-abs/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Calculate///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-calculate/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Calculate/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-calculate/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Ceil///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-ceil/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Ceil/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-ceil/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Floor///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-floor/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Floor/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-floor/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Format///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-format/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Format/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-format/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Max///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-max/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Max/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-max/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Min///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-min/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Min/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-min/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Random///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-random/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Random/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-random/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/RandomInt///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-random-int/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/RandomInt/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-random-int/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Round///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-round/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common.math/Round/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common.math/-round/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Check///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-check/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Check/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-check/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/If///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-if/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/If/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-if/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Join///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-join/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Join/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-join/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Weight///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-weight/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.common/Weight/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.common/-weight/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.compile////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.compile/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.compile/DefFunction///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.compile/-def-function/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.functions.compile/DefFunction/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.functions.compile/-def-function/execute.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/FileReader///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-file-reader/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/FileReader/FileReader/#com.skillw.pouvoir.internal.function.reader.SimpleReader/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-file-reader/-file-reader.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/FileReader/FileReader/#java.io.FileReader/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-file-reader/-file-reader.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/FileReader/getFunctions/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-file-reader/get-functions.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/FileReader/getGlobal/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-file-reader/get-global.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/index.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/SimpleReader/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/-simple-reader.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/current/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/current.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/except/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/except.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/hasNext/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/has-next.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/next/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/next.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseAny/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-any.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseArray/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-array.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseBoolean/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-boolean.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseByte/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-byte.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseDouble/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-double.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseFloat/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-float.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseInt/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-int.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseLong/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-long.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseShort/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-short.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/parseString/#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/parse-string.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/peekNext/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/peek-next.html
+$dokka.location:com.skillw.pouvoir.internal.function.reader/SimpleReader/previous/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function.reader/-simple-reader/previous.html
 $dokka.location:com.skillw.pouvoir.internal.function////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/Abs///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-abs/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/Calculate///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-calculate/index.html
@@ -446,11 +552,14 @@ $dokka.location:com.skillw.pouvoir.internal.function/Max///PointingToDeclaration
 $dokka.location:com.skillw.pouvoir.internal.function/Min///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-min/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/PouScriptFunction///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-pou-script-function/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/PouScriptFunction/PouScriptFunction/#kotlin.String#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-pou-script-function/-pou-script-function.html
+$dokka.location:com.skillw.pouvoir.internal.function/PouScriptFunction/execute/#com.skillw.pouvoir.api.function.reader.IReader#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-pou-script-function/execute.html
 $dokka.location:com.skillw.pouvoir.internal.function/PouScriptFunction/getPath/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-pou-script-function/get-path.html
 $dokka.location:com.skillw.pouvoir.internal.function/Random///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-random/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/RandomInt///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-random-int/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/Repeat///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-repeat/index.html
 $dokka.location:com.skillw.pouvoir.internal.function/Round///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-round/index.html
+$dokka.location:com.skillw.pouvoir.internal.function/TextHandler///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-text-handler/index.html
+$dokka.location:com.skillw.pouvoir.internal.function/TextHandler/analysis/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-text-handler/analysis.html
 $dokka.location:com.skillw.pouvoir.internal.function/Weight///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.function/-weight/index.html
 $dokka.location:com.skillw.pouvoir.internal.hologram////PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.hologram/index.html
 $dokka.location:com.skillw.pouvoir.internal.hologram/ConcurrentHashSet.Companion///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.hologram/-concurrent-hash-set/-companion/index.html
@@ -511,13 +620,13 @@ $dokka.location:com.skillw.pouvoir.internal.manager/ContainerManagerImpl/onEnabl
 $dokka.location:com.skillw.pouvoir.internal.manager/ContainerManagerImpl/set/#kotlin.String#kotlin.String#kotlin.Any?/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-container-manager-impl/set.html
 $dokka.location:com.skillw.pouvoir.internal.manager/ContainerManagerImpl/strContainer/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-container-manager-impl/str-container.html
 $dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/index.html
-$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/analysis/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/analysis.html
 $dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/get-key.html
 $dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/getPriority/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/get-priority.html
 $dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/getSubPouvoir/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/get-sub-pouvoir.html
+$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/legacyAnalysis/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/legacy-analysis.html
 $dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/onLoad/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/on-load.html
-$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/register/#com.skillw.pouvoir.api.function.PouFunction/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/register.html
-$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/register/#kotlin.String#com.skillw.pouvoir.api.function.PouFunction/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/register.html
+$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/register/#com.skillw.pouvoir.api.function.LegacyFunction/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/register.html
+$dokka.location:com.skillw.pouvoir.internal.manager/InlineFunctionManagerImpl/register/#kotlin.String#com.skillw.pouvoir.api.function.LegacyFunction/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-inline-function-manager-impl/register.html
 $dokka.location:com.skillw.pouvoir.internal.manager/ListenerManagerImpl///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-listener-manager-impl/index.html
 $dokka.location:com.skillw.pouvoir.internal.manager/ListenerManagerImpl/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-listener-manager-impl/get-key.html
 $dokka.location:com.skillw.pouvoir.internal.manager/ListenerManagerImpl/getPriority/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-listener-manager-impl/get-priority.html
@@ -535,6 +644,16 @@ $dokka.location:com.skillw.pouvoir.internal.manager/PouConfig/getScale/#/Pointin
 $dokka.location:com.skillw.pouvoir.internal.manager/PouConfig/getThreadPoolSize/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-config/get-thread-pool-size.html
 $dokka.location:com.skillw.pouvoir.internal.manager/PouConfig/onEnable/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-config/on-enable.html
 $dokka.location:com.skillw.pouvoir.internal.manager/PouConfig/onLoad/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-config/on-load.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/index.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/get-key.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/getNamespaces/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/get-namespaces.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/getPriority/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/get-priority.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/getSubPouvoir/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/get-sub-pouvoir.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/parse/#com.skillw.pouvoir.api.function.reader.IReader#kotlin.Array[kotlin.String]#com.skillw.pouvoir.api.function.context.Context/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/parse.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/parse/#com.skillw.pouvoir.api.function.reader.IReader#kotlin.Array[kotlin.String]#kotlin.Function1[com.skillw.pouvoir.api.function.context.Context,kotlin.Unit]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/parse.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/parse/#kotlin.String#kotlin.Array[kotlin.String]#kotlin.Function1[com.skillw.pouvoir.api.function.context.Context,kotlin.Unit]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/parse.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/parse/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/parse.html
+$dokka.location:com.skillw.pouvoir.internal.manager/PouFunctionManagerImpl/register/#com.skillw.pouvoir.api.function.PouFunction[*]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-function-manager-impl/register.html
 $dokka.location:com.skillw.pouvoir.internal.manager/PouPlaceHolderAPIImpl///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-place-holder-a-p-i-impl/index.html
 $dokka.location:com.skillw.pouvoir.internal.manager/PouPlaceHolderAPIImpl/getKey/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-place-holder-a-p-i-impl/get-key.html
 $dokka.location:com.skillw.pouvoir.internal.manager/PouPlaceHolderAPIImpl/getPriority/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.internal.manager/-pou-place-holder-a-p-i-impl/get-priority.html
@@ -712,8 +831,8 @@ $dokka.location:com.skillw.pouvoir.util/FileUtils/md5/java.io.File#/PointingToDe
 $dokka.location:com.skillw.pouvoir.util/FileUtils/pathNormalize/java.io.File#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-file-utils/path-normalize.html
 $dokka.location:com.skillw.pouvoir.util/FileUtils/toMap/org.bukkit.configuration.ConfigurationSection#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-file-utils/to-map.html
 $dokka.location:com.skillw.pouvoir.util/GsonUtils///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-gson-utils/index.html
-$dokka.location:com.skillw.pouvoir.util/GsonUtils/parse/kotlin.String#java.lang.Class[TypeParam(bounds=[kotlin.Any?])]#kotlin.Array[com.alibaba.fastjson.parser.Feature]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-gson-utils/parse.html
-$dokka.location:com.skillw.pouvoir.util/GsonUtils/toJson/kotlin.Any#kotlin.Array[com.alibaba.fastjson.serializer.SerializerFeature]/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-gson-utils/to-json.html
+$dokka.location:com.skillw.pouvoir.util/GsonUtils/decodeFromString/kotlin.String#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-gson-utils/decode-from-string.html
+$dokka.location:com.skillw.pouvoir.util/GsonUtils/encodeJson/TypeParam(bounds=[kotlin.Any?])#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-gson-utils/encode-json.html
 $dokka.location:com.skillw.pouvoir.util/ItemUtils///PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-item-utils/index.html
 $dokka.location:com.skillw.pouvoir.util/ItemUtils/getMythicItem/#kotlin.String#org.bukkit.entity.Player/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-item-utils/get-mythic-item.html
 $dokka.location:com.skillw.pouvoir.util/ItemUtils/getMythicItem/#kotlin.String/PointingToDeclaration/-pouvoir/com.skillw.pouvoir.util/-item-utils/get-mythic-item.html
@@ -781,6 +900,7 @@ $dokka.location:com.skillw.pouvoir/Pouvoir/getListenerManager/#/PointingToDeclar
 $dokka.location:com.skillw.pouvoir/Pouvoir/getManagerData/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-manager-data.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/getPlugin/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-plugin.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/getPoolExecutor/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-pool-executor.html
+$dokka.location:com.skillw.pouvoir/Pouvoir/getPouFunctionManager/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-pou-function-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/getPouPlaceHolderAPI/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-pou-place-holder-a-p-i.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/getPouPlaceholderManager/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-pou-placeholder-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/getScript/#/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/get-script.html
@@ -800,6 +920,7 @@ $dokka.location:com.skillw.pouvoir/Pouvoir/setContainerManager/#com.skillw.pouvo
 $dokka.location:com.skillw.pouvoir/Pouvoir/setInlineFunctionManager/#com.skillw.pouvoir.api.manager.sub.InlineFunctionManager/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-inline-function-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/setListenerManager/#com.skillw.pouvoir.api.manager.sub.ListenerManager/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-listener-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/setManagerData/#com.skillw.pouvoir.api.manager.ManagerData/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-manager-data.html
+$dokka.location:com.skillw.pouvoir/Pouvoir/setPouFunctionManager/#com.skillw.pouvoir.api.manager.sub.PouFunctionManager/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-pou-function-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/setPouPlaceHolderAPI/#com.skillw.pouvoir.api.manager.sub.PouPlaceHolderAPI/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-pou-place-holder-a-p-i.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/setPouPlaceholderManager/#com.skillw.pouvoir.api.manager.sub.PouPlaceHolderManager/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-pou-placeholder-manager.html
 $dokka.location:com.skillw.pouvoir/Pouvoir/setScript/#taboolib.module.configuration.ConfigFile/PointingToDeclaration/-pouvoir/com.skillw.pouvoir/-pouvoir/set-script.html
@@ -915,6 +1036,8 @@ com.skillw.pouvoir.api.able
 com.skillw.pouvoir.api.annotation
 com.skillw.pouvoir.api.event
 com.skillw.pouvoir.api.function
+com.skillw.pouvoir.api.function.context
+com.skillw.pouvoir.api.function.reader
 com.skillw.pouvoir.api.hologram
 com.skillw.pouvoir.api.listener
 com.skillw.pouvoir.api.manager
@@ -933,6 +1056,13 @@ com.skillw.pouvoir.internal.annotation
 com.skillw.pouvoir.internal.command
 com.skillw.pouvoir.internal.database
 com.skillw.pouvoir.internal.function
+com.skillw.pouvoir.internal.function.common
+com.skillw.pouvoir.internal.function.context
+com.skillw.pouvoir.internal.function.functions.common
+com.skillw.pouvoir.internal.function.functions.common.define
+com.skillw.pouvoir.internal.function.functions.common.math
+com.skillw.pouvoir.internal.function.functions.compile
+com.skillw.pouvoir.internal.function.reader
 com.skillw.pouvoir.internal.hologram
 com.skillw.pouvoir.internal.hook
 com.skillw.pouvoir.internal.manager

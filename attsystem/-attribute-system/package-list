@@ -13,9 +13,9 @@ $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/operat
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/operation/#kotlin.Array[com.skillw.attsystem.api.attribute.compound.AttributeData]/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/operation.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/release/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/release.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/save/#org.bukkit.inventory.ItemStack#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/save.html
+$dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/serialize/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/serialize.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/setRelease/#kotlin.Boolean/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/set-release.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/toCompound/#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/to-compound.html
-$dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/toMutableMap/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/to-mutable-map.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/toString/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/to-string.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeData/unRelease/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data/un-release.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/-companion/index.html
@@ -37,8 +37,8 @@ $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompoun
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/operation/#com.skillw.attsystem.api.attribute.compound.AttributeDataCompound/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/operation.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/register/#java.util.UUID/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/register.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/save/#org.bukkit.inventory.ItemStack/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/save.html
+$dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/serialize/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/serialize.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/toAttributeData/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/to-attribute-data.html
-$dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/toMutableMap/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/to-mutable-map.html
 $dokka.location:com.skillw.attsystem.api.attribute.compound/AttributeDataCompound/toString/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute.compound/-attribute-data-compound/to-string.html
 $dokka.location:com.skillw.attsystem.api.attribute////PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute/index.html
 $dokka.location:com.skillw.attsystem.api.attribute/Attribute.Builder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.attribute/-attribute/-builder/index.html
@@ -231,6 +231,8 @@ $dokka.location:com.skillw.attsystem.api.fight.message/Message.Type///PointingTo
 $dokka.location:com.skillw.attsystem.api.fight.message/Message///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message/index.html
 $dokka.location:com.skillw.attsystem.api.fight.message/Message/plus/#com.skillw.attsystem.api.fight.message.Message#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message/plus.html
 $dokka.location:com.skillw.attsystem.api.fight.message/Message/sendTo/#kotlin.Array[org.bukkit.entity.Player]/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message/send-to.html
+$dokka.location:com.skillw.attsystem.api.fight.message/MessageBuilder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message-builder/index.html
+$dokka.location:com.skillw.attsystem.api.fight.message/MessageBuilder/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message-builder/build.html
 $dokka.location:com.skillw.attsystem.api.fight.message/MessageData///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message-data/index.html
 $dokka.location:com.skillw.attsystem.api.fight.message/MessageData/MessageData/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message-data/-message-data.html
 $dokka.location:com.skillw.attsystem.api.fight.message/MessageData/addAll/#com.skillw.attsystem.api.fight.message.MessageData/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.fight.message/-message-data/add-all.html
@@ -339,6 +341,10 @@ $dokka.location:com.skillw.attsystem.api.manager/FormulaManager/get/#java.util.U
 $dokka.location:com.skillw.attsystem.api.manager/FormulaManager/get/#org.bukkit.entity.Entity#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-formula-manager/get.html
 $dokka.location:com.skillw.attsystem.api.manager/MechanicManager///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-mechanic-manager/index.html
 $dokka.location:com.skillw.attsystem.api.manager/MechanicManager/MechanicManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-mechanic-manager/-mechanic-manager.html
+$dokka.location:com.skillw.attsystem.api.manager/MessageBuilderManager///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-message-builder-manager/index.html
+$dokka.location:com.skillw.attsystem.api.manager/MessageBuilderManager/MessageBuilderManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-message-builder-manager/-message-builder-manager.html
+$dokka.location:com.skillw.attsystem.api.manager/MessageBuilderManager/getAttack/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-message-builder-manager/get-attack.html
+$dokka.location:com.skillw.attsystem.api.manager/MessageBuilderManager/getDefend/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-message-builder-manager/get-defend.html
 $dokka.location:com.skillw.attsystem.api.manager/OperationManager///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-operation-manager/index.html
 $dokka.location:com.skillw.attsystem.api.manager/OperationManager/OperationManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-operation-manager/-operation-manager.html
 $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.api.manager/-personal-manager/-companion/index.html
@@ -622,6 +628,7 @@ $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getDefaultDistanc
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getDefaultRegainHolo/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-default-regain-holo.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getDisableCooldownTypes/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-disable-cooldown-types.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getDisableDamageTypes/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-disable-damage-types.html
+$dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getEnableCooldown/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-enable-cooldown.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getEveFightCal/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-eve-fight-cal.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getFightStatusTime/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-fight-status-time.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getGerm/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-germ.html
@@ -631,11 +638,11 @@ $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getHealthScale/#/
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIgnores/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-ignores.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsAttackAnyTime/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-attack-any-time.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsAttackForce/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-attack-force.html
-$dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsCooldown/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-cooldown.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsDistanceEffect/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-distance-effect.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsDistanceSound/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-distance-sound.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsPersonalEnable/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-personal-enable.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsVanillaArmor/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-vanilla-armor.html
+$dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsVanillaAttackSpeed/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-vanilla-attack-speed.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getIsVanillaRegain/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-is-vanilla-regain.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getLineConditionPattern/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-line-condition-pattern.html
 $dokka.location:com.skillw.attsystem.internal.manager/ASConfig/getLineConditionSeparator/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-a-s-config/get-line-condition-separator.html
@@ -791,6 +798,12 @@ $dokka.location:com.skillw.attsystem.internal.manager/MechanicManagerImpl/getSub
 $dokka.location:com.skillw.attsystem.internal.manager/MechanicManagerImpl/onEnable/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-mechanic-manager-impl/on-enable.html
 $dokka.location:com.skillw.attsystem.internal.manager/MechanicManagerImpl/onReload/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-mechanic-manager-impl/on-reload.html
 $dokka.location:com.skillw.attsystem.internal.manager/MechanicManagerImpl/register/#kotlin.String#com.skillw.attsystem.api.fight.mechanic.Mechanic/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-mechanic-manager-impl/register.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/index.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl/getAttack/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/get-attack.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl/getDefend/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/get-defend.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/get-key.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl/getPriority/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/get-priority.html
+$dokka.location:com.skillw.attsystem.internal.manager/MessageBuilderManagerImpl/getSubPouvoir/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-message-builder-manager-impl/get-sub-pouvoir.html
 $dokka.location:com.skillw.attsystem.internal.manager/OperationManagerImpl///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-operation-manager-impl/index.html
 $dokka.location:com.skillw.attsystem.internal.manager/OperationManagerImpl/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-operation-manager-impl/get-key.html
 $dokka.location:com.skillw.attsystem.internal.manager/OperationManagerImpl/getPriority/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.manager/-operation-manager-impl/get-priority.html
@@ -851,6 +864,23 @@ $dokka.location:com.skillw.attsystem.internal.mechanic/ScriptMechanic/exec/#com.
 $dokka.location:com.skillw.attsystem.internal.mechanic/ScriptMechanic/serialize/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.mechanic/-script-mechanic/serialize.html
 $dokka.location:com.skillw.attsystem.internal.mechanic/VampireMechanic///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.mechanic/-vampire-mechanic/index.html
 $dokka.location:com.skillw.attsystem.internal.mechanic/VampireMechanic/exec/#com.skillw.attsystem.api.fight.FightData#kotlin.collections.Map[kotlin.String,kotlin.Any]#com.skillw.attsystem.api.fight.DamageType/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.mechanic/-vampire-mechanic/exec.html
+$dokka.location:com.skillw.attsystem.internal.message.builder////PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/index.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASActionBarBuilder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-action-bar-builder/index.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASActionBarBuilder/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-action-bar-builder/build.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASActionBarBuilder/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-action-bar-builder/get-key.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASActionBarBuilder/register/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-action-bar-builder/register.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASChatBuilder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-chat-builder/index.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASChatBuilder/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-chat-builder/build.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASChatBuilder/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-chat-builder/get-key.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASChatBuilder/register/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-chat-builder/register.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASHoloBuilder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-holo-builder/index.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASHoloBuilder/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-holo-builder/build.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASHoloBuilder/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-holo-builder/get-key.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASHoloBuilder/register/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-holo-builder/register.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASTitleBuilder///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-title-builder/index.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASTitleBuilder/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-title-builder/build.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASTitleBuilder/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-title-builder/get-key.html
+$dokka.location:com.skillw.attsystem.internal.message.builder/ASTitleBuilder/register/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message.builder/-a-s-title-builder/register.html
 $dokka.location:com.skillw.attsystem.internal.message////PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/index.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-action-bar/-companion/index.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar.Companion/deserialize/#org.bukkit.configuration.ConfigurationSection/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-action-bar/-companion/deserialize.html
@@ -860,15 +890,6 @@ $dokka.location:com.skillw.attsystem.internal.message/ASActionBar/plus/#com.skil
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar/sendTo/#kotlin.Array[org.bukkit.entity.Player]/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-action-bar/send-to.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar/sendToInfo/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-action-bar/send-to-info.html
 $dokka.location:com.skillw.attsystem.internal.message/ASActionBar/separator/#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-action-bar/separator.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/-companion/index.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar.Companion/deserialize/#org.bukkit.configuration.ConfigurationSection/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/-companion/deserialize.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/index.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/ASBossBar/#kotlin.String#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/-a-s-boss-bar.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/barColor/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/bar-color.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/barStyle/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/bar-style.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/process/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/process.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/sendTo/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/send-to.html
-$dokka.location:com.skillw.attsystem.internal.message/ASBossBar/title/#org.bukkit.entity.Player/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-boss-bar/title.html
 $dokka.location:com.skillw.attsystem.internal.message/ASChat///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-chat/index.html
 $dokka.location:com.skillw.attsystem.internal.message/ASChat/ASChat/#java.lang.StringBuilder/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-chat/-a-s-chat.html
 $dokka.location:com.skillw.attsystem.internal.message/ASChat/getText/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-chat/get-text.html
@@ -881,6 +902,8 @@ $dokka.location:com.skillw.attsystem.internal.message/ASHologramGroup/getNode/#/
 $dokka.location:com.skillw.attsystem.internal.message/ASHologramGroup/getTexts/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-hologram-group/get-texts.html
 $dokka.location:com.skillw.attsystem.internal.message/ASHologramGroup/plus/#com.skillw.attsystem.api.fight.message.Message#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-hologram-group/plus.html
 $dokka.location:com.skillw.attsystem.internal.message/ASHologramGroup/sendTo/#kotlin.Array[org.bukkit.entity.Player]/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-hologram-group/send-to.html
+$dokka.location:com.skillw.attsystem.internal.message/ASTitle.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-title/-companion/index.html
+$dokka.location:com.skillw.attsystem.internal.message/ASTitle.Companion/build/#com.skillw.attsystem.api.fight.DamageType#com.skillw.attsystem.api.fight.FightData#kotlin.Boolean#com.skillw.attsystem.api.fight.message.Message.Type/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-title/-companion/build.html
 $dokka.location:com.skillw.attsystem.internal.message/ASTitle///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-title/index.html
 $dokka.location:com.skillw.attsystem.internal.message/ASTitle/ASTitle/#java.lang.StringBuilder#java.lang.StringBuilder/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-title/-a-s-title.html
 $dokka.location:com.skillw.attsystem.internal.message/ASTitle/getSubTitle/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.message/-a-s-title/get-sub-title.html
@@ -900,18 +923,6 @@ $dokka.location:com.skillw.attsystem.internal.operation/Reduce/operate/#kotlin.N
 $dokka.location:com.skillw.attsystem.internal.operation/Scalar///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.operation/-scalar/index.html
 $dokka.location:com.skillw.attsystem.internal.operation/Scalar/operate/#kotlin.Number#kotlin.Number/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.operation/-scalar/operate.html
 $dokka.location:com.skillw.attsystem.internal.personal////PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType.ACTION_BAR///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/-a-c-t-i-o-n_-b-a-r/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType.CHAT///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/-c-h-a-t/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType.DISABLE///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/-d-i-s-a-b-l-e/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType.HOLO///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/-h-o-l-o/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType.TITLE///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/-t-i-t-l-e/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/AttackingMessageType///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-attacking-message-type/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType.ACTION_BAR///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/-a-c-t-i-o-n_-b-a-r/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType.CHAT///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/-c-h-a-t/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType.DISABLE///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/-d-i-s-a-b-l-e/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType.HOLO///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/-h-o-l-o/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType.TITLE///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/-t-i-t-l-e/index.html
-$dokka.location:com.skillw.attsystem.internal.personal/DefensiveMessageType///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-defensive-message-type/index.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData.Companion///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/-companion/index.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData.Companion/fromJson/#kotlin.String#java.util.UUID/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/-companion/from-json.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData///PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/index.html
@@ -923,8 +934,8 @@ $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/getDefensive
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/getKey/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/get-key.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/getRegainHolo/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/get-regain-holo.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/register/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/register.html
-$dokka.location:com.skillw.attsystem.internal.personal/PersonalData/setAttacking/#com.skillw.attsystem.internal.personal.AttackingMessageType/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/set-attacking.html
-$dokka.location:com.skillw.attsystem.internal.personal/PersonalData/setDefensive/#com.skillw.attsystem.internal.personal.DefensiveMessageType/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/set-defensive.html
+$dokka.location:com.skillw.attsystem.internal.personal/PersonalData/setAttacking/#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/set-attacking.html
+$dokka.location:com.skillw.attsystem.internal.personal/PersonalData/setDefensive/#kotlin.String/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/set-defensive.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/setRegainHolo/#kotlin.Boolean/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/set-regain-holo.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData/toString/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem.internal.personal/-personal-data/to-string.html
 $dokka.location:com.skillw.attsystem.util////PointingToDeclaration/-attribute-system/com.skillw.attsystem.util/index.html
@@ -999,6 +1010,7 @@ $dokka.location:com.skillw.attsystem/AttributeSystem/getKey/#/PointingToDeclarat
 $dokka.location:com.skillw.attsystem/AttributeSystem/getManagerData/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-manager-data.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/getMechanicManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-mechanic-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/getMessage/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-message.html
+$dokka.location:com.skillw.attsystem/AttributeSystem/getMessageBuilderManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-message-builder-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/getOperationManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-operation-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/getPersonalManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-personal-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/getPlayerSlotManager/#/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/get-player-slot-manager.html
@@ -1028,24 +1040,13 @@ $dokka.location:com.skillw.attsystem/AttributeSystem/setFormulaManager/#com.skil
 $dokka.location:com.skillw.attsystem/AttributeSystem/setManagerData/#com.skillw.pouvoir.api.manager.ManagerData/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-manager-data.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setMechanicManager/#com.skillw.attsystem.api.manager.MechanicManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-mechanic-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setMessage/#taboolib.module.configuration.ConfigFile/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-message.html
+$dokka.location:com.skillw.attsystem/AttributeSystem/setMessageBuilderManager/#com.skillw.attsystem.api.manager.MessageBuilderManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-message-builder-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setOperationManager/#com.skillw.attsystem.api.manager.OperationManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-operation-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setPersonalManager/#com.skillw.attsystem.api.manager.PersonalManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-personal-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setPlayerSlotManager/#com.skillw.attsystem.api.manager.PlayerSlotManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-player-slot-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setReadPatternManager/#com.skillw.attsystem.api.manager.ReadPatternManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-read-pattern-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setRealizeManager/#com.skillw.attsystem.api.manager.RealizeManager/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-realize-manager.html
 $dokka.location:com.skillw.attsystem/AttributeSystem/setSlot/#taboolib.module.configuration.ConfigFile/PointingToDeclaration/-attribute-system/com.skillw.attsystem/-attribute-system/set-slot.html
-$dokka.location:org.serverct.ersha.jd.api////PointingToDeclaration/-attribute-system/org.serverct.ersha.jd.api/index.html
-$dokka.location:org.serverct.ersha.jd.api/EntityAttributeAPI///PointingToDeclaration/-attribute-system/org.serverct.ersha.jd.api/-entity-attribute-a-p-i/index.html
-$dokka.location:org.serverct.ersha.jd.api/EntityAttributeAPI/addEntityAttribute/#org.bukkit.entity.Entity#kotlin.String#kotlin.collections.List[kotlin.String]#kotlin.Int/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd.api/-entity-attribute-a-p-i/add-entity-attribute.html
-$dokka.location:org.serverct.ersha.jd.api/EntityAttributeAPI/addEntityAttribute/#org.bukkit.entity.Entity#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd.api/-entity-attribute-a-p-i/add-entity-attribute.html
-$dokka.location:org.serverct.ersha.jd.api/EntityAttributeAPI/removeEntityAttribute/#org.bukkit.entity.Entity#kotlin.String/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd.api/-entity-attribute-a-p-i/remove-entity-attribute.html
-$dokka.location:org.serverct.ersha.jd////PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/index.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI///PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/index.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI/addAttribute/#org.bukkit.entity.Player#kotlin.String#kotlin.collections.List[kotlin.String]#kotlin.Int/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/add-attribute.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI/addAttribute/#org.bukkit.entity.Player#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/add-attribute.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI/deleteAttribute/#kotlin.String#kotlin.String/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/delete-attribute.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI/deleteAttribute/#org.bukkit.entity.Player#kotlin.String/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/delete-attribute.html
-$dokka.location:org.serverct.ersha.jd/AttributeAPI/updateEntityAttribute/#org.bukkit.entity.Entity/PointingToDeclaration/-attribute-system/org.serverct.ersha.jd/-attribute-a-p-i/update-entity-attribute.html
 com.skillw.attsystem
 com.skillw.attsystem.api
 com.skillw.attsystem.api.attribute
@@ -1079,9 +1080,8 @@ com.skillw.attsystem.internal.listener.update
 com.skillw.attsystem.internal.manager
 com.skillw.attsystem.internal.mechanic
 com.skillw.attsystem.internal.message
+com.skillw.attsystem.internal.message.builder
 com.skillw.attsystem.internal.operation
 com.skillw.attsystem.internal.personal
 com.skillw.attsystem.util
-org.serverct.ersha.jd
-org.serverct.ersha.jd.api
 
