@@ -37,11 +37,12 @@ $dokka.location:com.skillw.buffsystem.api.data////PointingToDeclaration/-buff-s
 $dokka.location:com.skillw.buffsystem.api.data/BuffData.Companion///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-companion/index.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData.Companion/deserialize/#kotlin.String#java.util.UUID#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-companion/deserialize.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/index.html
-$dokka.location:com.skillw.buffsystem.api.data/BuffData/BuffData/#com.skillw.buffsystem.api.buff.Buff#java.util.UUID/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-buff-data.html
-$dokka.location:com.skillw.buffsystem.api.data/BuffData/BuffData/#kotlin.String#java.util.UUID/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-buff-data.html
+$dokka.location:com.skillw.buffsystem.api.data/BuffData/BuffData/#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.UUID/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-buff-data.html
+$dokka.location:com.skillw.buffsystem.api.data/BuffData/BuffData/#kotlin.String#kotlin.String#java.util.UUID/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/-buff-data.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/exec/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/exec.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/getAs/#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-as.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/getBuff/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-buff.html
+$dokka.location:com.skillw.buffsystem.api.data/BuffData/getBuffKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-buff-key.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/getEntity/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-entity.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/getKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-key.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData/getUuid/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.data/-buff-data/get-uuid.html
@@ -90,12 +91,12 @@ $dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager///PointingToDe
 $dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/BuffDataManager/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/-buff-data-manager.html
 $dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/clearBuff/#java.util.UUID/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/clear-buff.html
 $dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/clearBuff/#org.bukkit.entity.LivingEntity/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/clear-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/removeBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/remove-buff.html
-$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/removeBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/remove-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#java.util.UUID#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#java.util.UUID#kotlin.String#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/giveBuff/#org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/give-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/removeBuff/#java.util.UUID#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/remove-buff.html
+$dokka.location:com.skillw.buffsystem.api.manager/BuffDataManager/removeBuff/#org.bukkit.entity.LivingEntity#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-data-manager/remove-buff.html
 $dokka.location:com.skillw.buffsystem.api.manager/BuffManager///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-manager/index.html
 $dokka.location:com.skillw.buffsystem.api.manager/BuffManager/BuffManager/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-buff-manager/-buff-manager.html
 $dokka.location:com.skillw.buffsystem.api.manager/ConditionManager///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-condition-manager/index.html
@@ -103,6 +104,12 @@ $dokka.location:com.skillw.buffsystem.api.manager/ConditionManager/ConditionMana
 $dokka.location:com.skillw.buffsystem.api.manager/ConditionManager/descriptions/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-condition-manager/descriptions.html
 $dokka.location:com.skillw.buffsystem.api.manager/EffectManager///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-effect-manager/index.html
 $dokka.location:com.skillw.buffsystem.api.manager/EffectManager/EffectManager/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api.manager/-effect-manager/-effect-manager.html
+$dokka.location:com.skillw.buffsystem.api////PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/index.html
+$dokka.location:com.skillw.buffsystem.api/BuffAPI///PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/-buff-a-p-i/index.html
+$dokka.location:com.skillw.buffsystem.api/BuffAPI/clearBuff/org.bukkit.entity.LivingEntity#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/-buff-a-p-i/clear-buff.html
+$dokka.location:com.skillw.buffsystem.api/BuffAPI/giveBuff/org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/-buff-a-p-i/give-buff.html
+$dokka.location:com.skillw.buffsystem.api/BuffAPI/giveBuff/org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/-buff-a-p-i/give-buff.html
+$dokka.location:com.skillw.buffsystem.api/BuffAPI/removeBuff/org.bukkit.entity.LivingEntity#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.api/-buff-a-p-i/remove-buff.html
 $dokka.location:com.skillw.buffsystem.internal.annotation////PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.annotation/index.html
 $dokka.location:com.skillw.buffsystem.internal.annotation/BuffCondition///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.annotation/-buff-condition/index.html
 $dokka.location:com.skillw.buffsystem.internal.annotation/BuffCondition/handle/#com.skillw.pouvoir.api.script.annotation.ScriptAnnotationData/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.annotation/-buff-condition/handle.html
@@ -200,6 +207,11 @@ $dokka.location:com.skillw.buffsystem.internal.effect/PotionBuff/hashCode/#/Poin
 $dokka.location:com.skillw.buffsystem.internal.effect/PotionBuff/realize/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.data.BuffData/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.effect/-potion-buff/realize.html
 $dokka.location:com.skillw.buffsystem.internal.effect/PotionBuff/serialize/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.effect/-potion-buff/serialize.html
 $dokka.location:com.skillw.buffsystem.internal.effect/PotionBuff/unrealize/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.data.BuffData/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.effect/-potion-buff/unrealize.html
+$dokka.location:com.skillw.buffsystem.internal.hook.ap////PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.ap/index.html
+$dokka.location:com.skillw.buffsystem.internal.hook.ap/AttributePlusHook///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.ap/-attribute-plus-hook/index.html
+$dokka.location:com.skillw.buffsystem.internal.hook.ap/AttributePlusHook/addAttribute/#org.bukkit.entity.LivingEntity#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.ap/-attribute-plus-hook/add-attribute.html
+$dokka.location:com.skillw.buffsystem.internal.hook.ap/AttributePlusHook/getKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.ap/-attribute-plus-hook/get-key.html
+$dokka.location:com.skillw.buffsystem.internal.hook.ap/AttributePlusHook/removeAttribute/#org.bukkit.entity.LivingEntity#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.ap/-attribute-plus-hook/remove-attribute.html
 $dokka.location:com.skillw.buffsystem.internal.hook.attsystem////PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.attsystem/index.html
 $dokka.location:com.skillw.buffsystem.internal.hook.attsystem/AttributeSystemHook///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.attsystem/-attribute-system-hook/index.html
 $dokka.location:com.skillw.buffsystem.internal.hook.attsystem/AttributeSystemHook/addAttribute/#org.bukkit.entity.LivingEntity#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.attsystem/-attribute-system-hook/add-attribute.html
@@ -216,6 +228,11 @@ $dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV.MMVList
 $dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.mythic/-buff-mechanic-v/index.html
 $dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV/BuffMechanicV/#io.lumine.mythic.api.config.MythicLineConfig/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.mythic/-buff-mechanic-v/-buff-mechanic-v.html
 $dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV/castAtEntity/#io.lumine.mythic.api.skills.SkillMetadata#io.lumine.mythic.api.adapters.AbstractEntity/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.mythic/-buff-mechanic-v/cast-at-entity.html
+$dokka.location:com.skillw.buffsystem.internal.hook.oa////PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.oa/index.html
+$dokka.location:com.skillw.buffsystem.internal.hook.oa/OriginAttributeHook///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.oa/-origin-attribute-hook/index.html
+$dokka.location:com.skillw.buffsystem.internal.hook.oa/OriginAttributeHook/addAttribute/#org.bukkit.entity.LivingEntity#kotlin.String#kotlin.collections.List[kotlin.String]/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.oa/-origin-attribute-hook/add-attribute.html
+$dokka.location:com.skillw.buffsystem.internal.hook.oa/OriginAttributeHook/getKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.oa/-origin-attribute-hook/get-key.html
+$dokka.location:com.skillw.buffsystem.internal.hook.oa/OriginAttributeHook/removeAttribute/#org.bukkit.entity.LivingEntity#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.oa/-origin-attribute-hook/remove-attribute.html
 $dokka.location:com.skillw.buffsystem.internal.hook.placeholder////PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.placeholder/index.html
 $dokka.location:com.skillw.buffsystem.internal.hook.placeholder/PlaceHolderHooker///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.placeholder/-place-holder-hooker/index.html
 $dokka.location:com.skillw.buffsystem.internal.hook.placeholder/PlaceHolderHooker/getIdentifier/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.hook.placeholder/-place-holder-hooker/get-identifier.html
@@ -254,15 +271,15 @@ $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/clear
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/getKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/get-key.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/getPriority/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/get-priority.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/getSubPouvoir/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/get-sub-pouvoir.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#java.util.UUID#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#java.util.UUID#kotlin.String#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#java.util.function.Consumer[com.skillw.buffsystem.api.data.BuffData]?/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/giveBuff/#org.bukkit.entity.LivingEntity#kotlin.String#com.skillw.buffsystem.api.buff.Buff#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/give-buff.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/onDisable/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/on-disable.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/onEnable/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/on-enable.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/onReload/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/on-reload.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/removeBuff/#java.util.UUID#com.skillw.buffsystem.api.buff.Buff/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/remove-buff.html
-$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/removeBuff/#org.bukkit.entity.LivingEntity#com.skillw.buffsystem.api.buff.Buff/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/remove-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/removeBuff/#java.util.UUID#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/remove-buff.html
+$dokka.location:com.skillw.buffsystem.internal.manager/BuffDataManagerImpl/removeBuff/#org.bukkit.entity.LivingEntity#kotlin.String/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-data-manager-impl/remove-buff.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffManagerImpl///PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-manager-impl/index.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffManagerImpl/getKey/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-manager-impl/get-key.html
 $dokka.location:com.skillw.buffsystem.internal.manager/BuffManagerImpl/getPriority/#/PointingToDeclaration/-buff-system/com.skillw.buffsystem.internal.manager/-buff-manager-impl/get-priority.html
@@ -317,6 +334,7 @@ $dokka.location:com.skillw.buffsystem/BuffSystem/setConfigManager/#com.skillw.bu
 $dokka.location:com.skillw.buffsystem/BuffSystem/setEffectManager/#com.skillw.buffsystem.api.manager.EffectManager/PointingToDeclaration/-buff-system/com.skillw.buffsystem/-buff-system/set-effect-manager.html
 $dokka.location:com.skillw.buffsystem/BuffSystem/setManagerData/#com.skillw.pouvoir.api.manager.ManagerData/PointingToDeclaration/-buff-system/com.skillw.buffsystem/-buff-system/set-manager-data.html
 com.skillw.buffsystem
+com.skillw.buffsystem.api
 com.skillw.buffsystem.api.attribute
 com.skillw.buffsystem.api.buff
 com.skillw.buffsystem.api.condition
@@ -329,8 +347,10 @@ com.skillw.buffsystem.internal.clock
 com.skillw.buffsystem.internal.command
 com.skillw.buffsystem.internal.condition
 com.skillw.buffsystem.internal.effect
+com.skillw.buffsystem.internal.hook.ap
 com.skillw.buffsystem.internal.hook.attsystem
 com.skillw.buffsystem.internal.hook.mythic
+com.skillw.buffsystem.internal.hook.oa
 com.skillw.buffsystem.internal.hook.placeholder
 com.skillw.buffsystem.internal.hook.pou
 com.skillw.buffsystem.internal.listener
