@@ -1,0 +1,33 @@
+$dokka.format:javadoc-v1
+$dokka.linkExtension:html
+$dokka.location:com.skillw.buffsystem.api.buff/Buff.Companion///PointingToDeclaration/com/skillw/buffsystem/api/buff/Buff.Companion.html
+$dokka.location:com.skillw.buffsystem.api.data/BuffData.Companion///PointingToDeclaration/com/skillw/buffsystem/api/data/BuffData.Companion.html
+$dokka.location:com.skillw.buffsystem.api.data/BuffDataCompound.Companion///PointingToDeclaration/com/skillw/buffsystem/api/data/BuffDataCompound.Companion.html
+$dokka.location:com.skillw.buffsystem.internal.effect/PermissionEffect.Companion///PointingToDeclaration/com/skillw/buffsystem/internal/effect/PermissionEffect.Companion.html
+$dokka.location:com.skillw.buffsystem.internal.effect/PotionEffect.Companion///PointingToDeclaration/com/skillw/buffsystem/internal/effect/PotionEffect.Companion.html
+$dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicIV.MMIVListener///PointingToDeclaration/com/skillw/buffsystem/internal/hook/mythic/BuffMechanicIV.MMIVListener.html
+$dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV.MMVListener///PointingToDeclaration/com/skillw/buffsystem/internal/hook/mythic/BuffMechanicV.MMVListener.html
+com.skillw.buffsystem
+com.skillw.buffsystem.api
+com.skillw.buffsystem.api.attribute
+com.skillw.buffsystem.api.buff
+com.skillw.buffsystem.api.condition
+com.skillw.buffsystem.api.data
+com.skillw.buffsystem.api.effect
+com.skillw.buffsystem.api.manager
+com.skillw.buffsystem.internal.annotation
+com.skillw.buffsystem.internal.clock
+com.skillw.buffsystem.internal.command
+com.skillw.buffsystem.internal.condition
+com.skillw.buffsystem.internal.effect
+com.skillw.buffsystem.internal.effect.builder
+com.skillw.buffsystem.internal.hook.ap
+com.skillw.buffsystem.internal.hook.attsystem
+com.skillw.buffsystem.internal.hook.mythic
+com.skillw.buffsystem.internal.hook.oa
+com.skillw.buffsystem.internal.hook.placeholder
+com.skillw.buffsystem.internal.hook.pou
+com.skillw.buffsystem.internal.listener
+com.skillw.buffsystem.internal.manager
+com.skillw.buffsystem.util
+
