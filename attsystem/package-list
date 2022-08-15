@@ -15,8 +15,7 @@ $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///Poi
 $dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
 $dokka.location:com.skillw.attsystem.internal.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/FightGroup.Companion.html
 $dokka.location:com.skillw.attsystem.internal.fight/MechanicData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicData.Companion.html
-$dokka.location:com.skillw.attsystem.internal.message/ASActionBar.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASActionBar.Companion.html
-$dokka.location:com.skillw.attsystem.internal.message/ASTitle.Companion///PointingToDeclaration/com/skillw/attsystem/internal/message/ASTitle.Companion.html
+$dokka.location:com.skillw.attsystem.internal.nms/NMS.Companion///PointingToDeclaration/com/skillw/attsystem/internal/nms/NMS.Companion.html
 $dokka.location:com.skillw.attsystem.internal.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/personal/PersonalData.Companion.html
 $dokka.location:com.skillw.attsystem.internal.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/read/ReadGroup.Companion.html
 com.skillw.attsystem
@@ -38,6 +37,7 @@ com.skillw.attsystem.internal.annotation
 com.skillw.attsystem.internal.attribute
 com.skillw.attsystem.internal.command
 com.skillw.attsystem.internal.fight
+com.skillw.attsystem.internal.function
 com.skillw.attsystem.internal.hook.dragoncore
 com.skillw.attsystem.internal.hook.germ
 com.skillw.attsystem.internal.hook.magic
@@ -53,6 +53,7 @@ com.skillw.attsystem.internal.listener.update
 com.skillw.attsystem.internal.manager
 com.skillw.attsystem.internal.message
 com.skillw.attsystem.internal.message.builder
+com.skillw.attsystem.internal.nms
 com.skillw.attsystem.internal.operation.num
 com.skillw.attsystem.internal.operation.str
 com.skillw.attsystem.internal.personal

@@ -3,10 +3,9 @@ $dokka.linkExtension:html
 $dokka.location:com.skillw.buffsystem.api.buff/Buff.Companion///PointingToDeclaration/com/skillw/buffsystem/api/buff/Buff.Companion.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffData.Companion///PointingToDeclaration/com/skillw/buffsystem/api/data/BuffData.Companion.html
 $dokka.location:com.skillw.buffsystem.api.data/BuffDataCompound.Companion///PointingToDeclaration/com/skillw/buffsystem/api/data/BuffDataCompound.Companion.html
+$dokka.location:com.skillw.buffsystem.api.effect/BaseEffect.Companion///PointingToDeclaration/com/skillw/buffsystem/api/effect/BaseEffect.Companion.html
 $dokka.location:com.skillw.buffsystem.internal.effect/PermissionEffect.Companion///PointingToDeclaration/com/skillw/buffsystem/internal/effect/PermissionEffect.Companion.html
 $dokka.location:com.skillw.buffsystem.internal.effect/PotionEffect.Companion///PointingToDeclaration/com/skillw/buffsystem/internal/effect/PotionEffect.Companion.html
-$dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicIV.MMIVListener///PointingToDeclaration/com/skillw/buffsystem/internal/hook/mythic/BuffMechanicIV.MMIVListener.html
-$dokka.location:com.skillw.buffsystem.internal.hook.mythic/BuffMechanicV.MMVListener///PointingToDeclaration/com/skillw/buffsystem/internal/hook/mythic/BuffMechanicV.MMVListener.html
 com.skillw.buffsystem
 com.skillw.buffsystem.api
 com.skillw.buffsystem.api.attribute
@@ -19,6 +18,7 @@ com.skillw.buffsystem.internal.annotation
 com.skillw.buffsystem.internal.clock
 com.skillw.buffsystem.internal.command
 com.skillw.buffsystem.internal.condition
+com.skillw.buffsystem.internal.container
 com.skillw.buffsystem.internal.effect
 com.skillw.buffsystem.internal.effect.builder
 com.skillw.buffsystem.internal.hook.ap

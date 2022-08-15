@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!-- NewPage -->
 <html lang="en"><head>
-    <title>BuffDataManager 1.1.0 API </title>
+    <title>BuffDataManager 1.1.2 API </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="dc.created" content="2020-03-25">
     <link rel="stylesheet" type="text/css" href="../../../../../stylesheet.css" title="Style">
@@ -138,7 +138,7 @@ var pathtoroot = "../../../../../";
                     <pre class="wrap-overflow">
 
 public abstract class <span class="typeNameLabel"><a href=BuffDataManager.html>BuffDataManager</a></span>
-extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt; implements Manager
+extends <a href=https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/map/KeyMap.html>KeyMap</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt; implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/manager/Manager.html>Manager</a>
                     </pre>
                     <div class="block"></div>
                 </li>
@@ -185,6 +185,54 @@ extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UU
                                             <th class="colFirst" scope="col">Modifier and Type</th>
                                             <th class="colSecond" scope="col">Field</th>
                                             <th class="colLast" scope="col">Description</th>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/Entry.Map.html>Entry.Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/manager/EffectManagerImpl.html#entries>entries</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/manager/EffectManagerImpl.html#keys>keys</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html>ConcurrentHashMap</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/manager/EffectManagerImpl.html#map>map</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/manager/EffectManagerImpl.html#size>size</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;</code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/manager/EffectManagerImpl.html#values>values</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=../../internal/container/BuffContainer.html#key>key</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="altColor">
+                                            <td class="colFirst"><code>private final <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=EffectManager.html#priority>priority</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private final <a href=https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/plugin/SubPouvoir.html>SubPouvoir</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=EffectManager.html#subPouvoir>subPouvoir</a></code></th>
+                                            <td class="colLast"></td>
                                         </tr>
                                         
                                     </table>
@@ -267,65 +315,65 @@ extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UU
                                         </tr>
                                         
                                         <tr id="i0" class="altColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code><a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/Entry.Map.html>Entry.Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(LivingEntity,String,Buff,Consumer)>giveBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html>Consumer</a>&lt;<a href=../data/BuffData.html>BuffData</a>&gt; consumer) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getEntries()>getEntries</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i1" class="rowColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code><a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(UUID,String,Buff,Consumer)>giveBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html>Consumer</a>&lt;<a href=../data/BuffData.html>BuffData</a>&gt; consumer) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getKeys()>getKeys</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code>final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html>ConcurrentHashMap</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(UUID,String,Buff,String)>giveBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getMap()>getMap</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i3" class="rowColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code><a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(LivingEntity,String,Buff,String)>giveBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getSize()>getSize</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i4" class="altColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code><a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#clearBuff(LivingEntity)>clearBuff</a>(LivingEntity entity) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getValues()>getValues</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#clearBuff(UUID)>clearBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getKey()>getKey</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i6" class="altColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code>abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeBuff(LivingEntity,String)>removeBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getPriority()>getPriority</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i7" class="rowColor">
-                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            <td class="colFirst"><code>abstract <a href=https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/plugin/SubPouvoir.html>SubPouvoir</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeBuff(UUID,String)>removeBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#getSubPouvoir()>getSubPouvoir</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -333,12 +381,76 @@ extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UU
                                         <tr id="i8" class="altColor">
                                             <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeIf(UUID,String)>removeIf</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(LivingEntity,String,Buff,Consumer)>giveBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html>Consumer</a>&lt;<a href=../data/BuffData.html>BuffData</a>&gt; consumer) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(UUID,String,Buff,Consumer)>giveBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html>Consumer</a>&lt;<a href=../data/BuffData.html>BuffData</a>&gt; consumer) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i10" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(UUID,String,Buff,String)>giveBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i11" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#giveBuff(LivingEntity,String,Buff,String)>giveBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, <a href=../buff/Buff.html>Buff</a> buff, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i12" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#clearBuff(LivingEntity)>clearBuff</a>(LivingEntity entity) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i13" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#clearBuff(UUID)>clearBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i14" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeBuff(LivingEntity,String)>removeBuff</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i15" class="rowColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeBuff(UUID,String)>removeBuff</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i16" class="altColor">
+                                            <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeIf(UUID,String)>removeIf</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a> uuid, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i17" class="rowColor">
                                             <td class="colFirst"><code>abstract <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=BuffDataManager.html#removeIf(LivingEntity,String)>removeIf</a>(LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> json) </code>
@@ -351,6 +463,18 @@ extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UU
                                 </div>
                                 <ul class="blockList">
                                 
+                                    <li class="blockList"><a id="methods.inherited.from.class.com.skillw.pouvoir.api.map.KeyMap">
+                                            <!--   -->
+                                        </a>
+                                            <h3>Methods inherited from class&nbsp;com.skillw.pouvoir.api.map.KeyMap</h3>
+                                            <code>any, clear, contains, containsKey, containsValue, filter, filterKeys, filterValues, flatMapTo, forEach, get, getOrElse, getOrPut, isEmpty, isNotEmpty, iterator, map, mapKeys, mapKeysTo, mapNotNull, mapNotNullTo, mapValues, mapValuesTo, plus, plus, plus, plusAssign, plusAssign, plusAssign, plusAssign, plusAssign, put, putAll, putAll, putAll, register, remove, set, toMap, toMutableMap</code></li>
+                                 
+                                    <li class="blockList"><a id="methods.inherited.from.class.com.skillw.buffsystem.api.manager.BuffDataManager">
+                                            <!--   -->
+                                        </a>
+                                            <h3>Methods inherited from class&nbsp;com.skillw.buffsystem.api.manager.BuffDataManager</h3>
+                                            <code>compareTo, onActive, onDisable, onEnable, onLoad, onReload, register, register, removeByValue</code></li>
+                                 
                                     <li class="blockList"><a id="methods.inherited.from.class.java.lang.Object">
                                         <!--   -->
                                     </a>
@@ -399,6 +523,126 @@ extends KeyMap&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UU
                                 <!--   -->
                             </a>
                                 <h3>Method Detail</h3>
+                                
+                                <a id="getEntries()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getEntries</h4>
+                                        <pre class="methodSignature"> <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/Entry.Map.html>Entry.Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt;&gt; <a href=BuffDataManager.html#getEntries()>getEntries</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getKeys()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getKeys</h4>
+                                        <pre class="methodSignature"> <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>&gt; <a href=BuffDataManager.html#getKeys()>getKeys</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getMap()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getMap</h4>
+                                        <pre class="methodSignature"> final <a href=https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ConcurrentHashMap.html>ConcurrentHashMap</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/UUID.html>UUID</a>, <a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt; <a href=BuffDataManager.html#getMap()>getMap</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSize()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSize</h4>
+                                        <pre class="methodSignature"> <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a> <a href=BuffDataManager.html#getSize()>getSize</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getValues()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getValues</h4>
+                                        <pre class="methodSignature"> <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html>Collection</a>&lt;<a href=../data/BuffDataCompound.html>BuffDataCompound</a>&gt; <a href=BuffDataManager.html#getValues()>getValues</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getKey()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getKey</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> <a href=BuffDataManager.html#getKey()>getKey</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getPriority()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getPriority</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html>Integer</a> <a href=BuffDataManager.html#getPriority()>getPriority</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getSubPouvoir()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getSubPouvoir</h4>
+                                        <pre class="methodSignature"> abstract <a href=https://doc.skillw.com/pouvoir/com/skillw/pouvoir/api/plugin/SubPouvoir.html>SubPouvoir</a> <a href=BuffDataManager.html#getSubPouvoir()>getSubPouvoir</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
                                 
                                 <a id="giveBuff(LivingEntity,String,Buff,Consumer)">
                                     <!--   -->
