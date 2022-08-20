@@ -13,11 +13,11 @@ $dokka.location:com.skillw.attsystem.api.fight/DamageType.Companion///PointingTo
 $dokka.location:com.skillw.attsystem.api.manager/CooldownManager.CooldownTime///PointingToDeclaration/com/skillw/attsystem/api/manager/CooldownManager.CooldownTime.html
 $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///PointingToDeclaration/com/skillw/attsystem/api/manager/PersonalManager.Companion.html
 $dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
+$dokka.location:com.skillw.attsystem.internal.feature.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/feature/personal/PersonalData.Companion.html
 $dokka.location:com.skillw.attsystem.internal.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/FightGroup.Companion.html
 $dokka.location:com.skillw.attsystem.internal.fight/MechanicData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicData.Companion.html
-$dokka.location:com.skillw.attsystem.internal.nms/NMS.Companion///PointingToDeclaration/com/skillw/attsystem/internal/nms/NMS.Companion.html
-$dokka.location:com.skillw.attsystem.internal.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/personal/PersonalData.Companion.html
 $dokka.location:com.skillw.attsystem.internal.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/read/ReadGroup.Companion.html
+$dokka.location:com.skillw.attsystem.util.nms/NMS.Companion///PointingToDeclaration/com/skillw/attsystem/util/nms/NMS.Companion.html
 com.skillw.attsystem
 com.skillw.attsystem.api
 com.skillw.attsystem.api.attribute
@@ -33,32 +33,34 @@ com.skillw.attsystem.api.operation
 com.skillw.attsystem.api.read
 com.skillw.attsystem.api.slot
 com.skillw.attsystem.api.status
-com.skillw.attsystem.internal.annotation
 com.skillw.attsystem.internal.attribute
 com.skillw.attsystem.internal.command
+com.skillw.attsystem.internal.command.sub
+com.skillw.attsystem.internal.feature.compat.dragoncore
+com.skillw.attsystem.internal.feature.compat.germ
+com.skillw.attsystem.internal.feature.compat.magic
+com.skillw.attsystem.internal.feature.compat.mythicmobs.common
+com.skillw.attsystem.internal.feature.compat.mythicmobs.legacy
+com.skillw.attsystem.internal.feature.compat.paper
+com.skillw.attsystem.internal.feature.compat.placeholder
+com.skillw.attsystem.internal.feature.compat.pouvoir
+com.skillw.attsystem.internal.feature.compat.pouvoir.annotation
+com.skillw.attsystem.internal.feature.compat.pouvoir.function
+com.skillw.attsystem.internal.feature.compat.skapi
+com.skillw.attsystem.internal.feature.listener.fight
+com.skillw.attsystem.internal.feature.listener.person
+com.skillw.attsystem.internal.feature.listener.realize
+com.skillw.attsystem.internal.feature.listener.update
+com.skillw.attsystem.internal.feature.message
+com.skillw.attsystem.internal.feature.message.builder
+com.skillw.attsystem.internal.feature.personal
 com.skillw.attsystem.internal.fight
-com.skillw.attsystem.internal.function
-com.skillw.attsystem.internal.hook.dragoncore
-com.skillw.attsystem.internal.hook.germ
-com.skillw.attsystem.internal.hook.magic
-com.skillw.attsystem.internal.hook.mythicmobs.common
-com.skillw.attsystem.internal.hook.mythicmobs.legacy
-com.skillw.attsystem.internal.hook.paper
-com.skillw.attsystem.internal.hook.placeholder
-com.skillw.attsystem.internal.hook.skapi
-com.skillw.attsystem.internal.listener.fight
-com.skillw.attsystem.internal.listener.person
-com.skillw.attsystem.internal.listener.realize
-com.skillw.attsystem.internal.listener.update
 com.skillw.attsystem.internal.manager
-com.skillw.attsystem.internal.message
-com.skillw.attsystem.internal.message.builder
-com.skillw.attsystem.internal.nms
 com.skillw.attsystem.internal.operation.num
 com.skillw.attsystem.internal.operation.str
-com.skillw.attsystem.internal.personal
 com.skillw.attsystem.internal.read
 com.skillw.attsystem.internal.read.num
 com.skillw.attsystem.internal.read.str
 com.skillw.attsystem.util
+com.skillw.attsystem.util.nms
 
