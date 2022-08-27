@@ -1,5 +1,8 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
+$dokka.location:com.skillw.pouvoir.api.container/ContainerBuilder.Data///PointingToDeclaration/com/skillw/pouvoir/api/container/ContainerBuilder.Data.html
+$dokka.location:com.skillw.pouvoir.api.container/ContainerBuilder.Flatten///PointingToDeclaration/com/skillw/pouvoir/api/container/ContainerBuilder.Flatten.html
+$dokka.location:com.skillw.pouvoir.api.container/IPersistentContainer.Companion///PointingToDeclaration/com/skillw/pouvoir/api/container/IPersistentContainer.Companion.html
 $dokka.location:com.skillw.pouvoir.api.event/ManagerTime.Companion///PointingToDeclaration/com/skillw/pouvoir/api/event/ManagerTime.Companion.html
 $dokka.location:com.skillw.pouvoir.api.function.action/IAction.Companion///PointingToDeclaration/com/skillw/pouvoir/api/function/action/IAction.Companion.html
 $dokka.location:com.skillw.pouvoir.api.function.parser/Parser.Companion///PointingToDeclaration/com/skillw/pouvoir/api/function/parser/Parser.Companion.html
@@ -13,12 +16,11 @@ $dokka.location:com.skillw.pouvoir.internal.core.function.functions.common.defin
 $dokka.location:com.skillw.pouvoir.internal.core.script.common.pool/TaskStatus.ScriptTask///PointingToDeclaration/com/skillw/pouvoir/internal/core/script/common/pool/TaskStatus.ScriptTask.html
 $dokka.location:com.skillw.pouvoir.internal.feature.hologram/ConcurrentHashSet.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/feature/hologram/ConcurrentHashSet.Companion.html
 $dokka.location:com.skillw.pouvoir.internal.feature.hologram/PouHolo.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/feature/hologram/PouHolo.Companion.html
-$dokka.location:taboolib.expansion/ContainerBuilder.Data///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Data.html
-$dokka.location:taboolib.expansion/ContainerBuilder.Flatten///PointingToDeclaration/taboolib/expansion/ContainerBuilder.Flatten.html
 com.skillw.pouvoir
 com.skillw.pouvoir.api
 com.skillw.pouvoir.api.able
 com.skillw.pouvoir.api.annotation
+com.skillw.pouvoir.api.container
 com.skillw.pouvoir.api.event
 com.skillw.pouvoir.api.function
 com.skillw.pouvoir.api.function.action
@@ -53,6 +55,7 @@ com.skillw.pouvoir.internal.core.function.functions.common.loop
 com.skillw.pouvoir.internal.core.function.functions.common.math
 com.skillw.pouvoir.internal.core.function.functions.common.object
 com.skillw.pouvoir.internal.core.function.functions.common.str
+com.skillw.pouvoir.internal.core.function.functions.common.task
 com.skillw.pouvoir.internal.core.function.functions.common.util
 com.skillw.pouvoir.internal.core.function.parser
 com.skillw.pouvoir.internal.core.function.reader
@@ -66,9 +69,10 @@ com.skillw.pouvoir.internal.core.script.javascript
 com.skillw.pouvoir.internal.core.script.javascript.impl
 com.skillw.pouvoir.internal.feature.compat.placeholder
 com.skillw.pouvoir.internal.feature.container
+com.skillw.pouvoir.internal.feature.container.operator
+com.skillw.pouvoir.internal.feature.container.type
 com.skillw.pouvoir.internal.feature.hologram
 com.skillw.pouvoir.internal.feature.raytrace
 com.skillw.pouvoir.internal.manager
 com.skillw.pouvoir.util
-taboolib.expansion
 

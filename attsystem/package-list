@@ -15,7 +15,7 @@ $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///Poi
 $dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
 $dokka.location:com.skillw.attsystem.internal.feature.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/feature/personal/PersonalData.Companion.html
 $dokka.location:com.skillw.attsystem.internal.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/FightGroup.Companion.html
-$dokka.location:com.skillw.attsystem.internal.fight/MechanicData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicData.Companion.html
+$dokka.location:com.skillw.attsystem.internal.fight/MechanicDataCompound.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicDataCompound.Companion.html
 $dokka.location:com.skillw.attsystem.internal.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/read/ReadGroup.Companion.html
 $dokka.location:com.skillw.attsystem.util.nms/NMS.Companion///PointingToDeclaration/com/skillw/attsystem/util/nms/NMS.Companion.html
 com.skillw.attsystem
@@ -46,6 +46,7 @@ com.skillw.attsystem.internal.feature.compat.placeholder
 com.skillw.attsystem.internal.feature.compat.pouvoir
 com.skillw.attsystem.internal.feature.compat.pouvoir.annotation
 com.skillw.attsystem.internal.feature.compat.pouvoir.function
+com.skillw.attsystem.internal.feature.compat.pouvoir.function.common
 com.skillw.attsystem.internal.feature.compat.skapi
 com.skillw.attsystem.internal.feature.listener.fight
 com.skillw.attsystem.internal.feature.listener.person
