@@ -12,11 +12,11 @@ $dokka.location:com.skillw.attsystem.api.fight.message/Message.Type///PointingTo
 $dokka.location:com.skillw.attsystem.api.fight/DamageType.Companion///PointingToDeclaration/com/skillw/attsystem/api/fight/DamageType.Companion.html
 $dokka.location:com.skillw.attsystem.api.manager/CooldownManager.CooldownTime///PointingToDeclaration/com/skillw/attsystem/api/manager/CooldownManager.CooldownTime.html
 $dokka.location:com.skillw.attsystem.api.manager/PersonalManager.Companion///PointingToDeclaration/com/skillw/attsystem/api/manager/PersonalManager.Companion.html
-$dokka.location:com.skillw.attsystem.internal.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/attribute/ConfigAttributeBuilder.Companion.html
+$dokka.location:com.skillw.attsystem.internal.core.attribute/ConfigAttributeBuilder.Companion///PointingToDeclaration/com/skillw/attsystem/internal/core/attribute/ConfigAttributeBuilder.Companion.html
+$dokka.location:com.skillw.attsystem.internal.core.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/core/fight/FightGroup.Companion.html
+$dokka.location:com.skillw.attsystem.internal.core.fight/MechanicDataCompound.Companion///PointingToDeclaration/com/skillw/attsystem/internal/core/fight/MechanicDataCompound.Companion.html
+$dokka.location:com.skillw.attsystem.internal.core.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/core/read/ReadGroup.Companion.html
 $dokka.location:com.skillw.attsystem.internal.feature.personal/PersonalData.Companion///PointingToDeclaration/com/skillw/attsystem/internal/feature/personal/PersonalData.Companion.html
-$dokka.location:com.skillw.attsystem.internal.fight/FightGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/FightGroup.Companion.html
-$dokka.location:com.skillw.attsystem.internal.fight/MechanicDataCompound.Companion///PointingToDeclaration/com/skillw/attsystem/internal/fight/MechanicDataCompound.Companion.html
-$dokka.location:com.skillw.attsystem.internal.read/ReadGroup.Companion///PointingToDeclaration/com/skillw/attsystem/internal/read/ReadGroup.Companion.html
 $dokka.location:com.skillw.attsystem.util.nms/NMS.Companion///PointingToDeclaration/com/skillw/attsystem/util/nms/NMS.Companion.html
 com.skillw.attsystem
 com.skillw.attsystem.api
@@ -33,9 +33,15 @@ com.skillw.attsystem.api.operation
 com.skillw.attsystem.api.read
 com.skillw.attsystem.api.slot
 com.skillw.attsystem.api.status
-com.skillw.attsystem.internal.attribute
 com.skillw.attsystem.internal.command
 com.skillw.attsystem.internal.command.sub
+com.skillw.attsystem.internal.core.attribute
+com.skillw.attsystem.internal.core.fight
+com.skillw.attsystem.internal.core.operation.num
+com.skillw.attsystem.internal.core.operation.str
+com.skillw.attsystem.internal.core.read
+com.skillw.attsystem.internal.core.read.num
+com.skillw.attsystem.internal.core.read.str
 com.skillw.attsystem.internal.feature.compat.dragoncore
 com.skillw.attsystem.internal.feature.compat.germ
 com.skillw.attsystem.internal.feature.compat.magic
@@ -55,13 +61,7 @@ com.skillw.attsystem.internal.feature.listener.update
 com.skillw.attsystem.internal.feature.message
 com.skillw.attsystem.internal.feature.message.builder
 com.skillw.attsystem.internal.feature.personal
-com.skillw.attsystem.internal.fight
 com.skillw.attsystem.internal.manager
-com.skillw.attsystem.internal.operation.num
-com.skillw.attsystem.internal.operation.str
-com.skillw.attsystem.internal.read
-com.skillw.attsystem.internal.read.num
-com.skillw.attsystem.internal.read.str
 com.skillw.attsystem.util
 com.skillw.attsystem.util.nms
 

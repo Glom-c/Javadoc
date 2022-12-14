@@ -4,7 +4,7 @@ $dokka.location:com.skillw.pouvoir.api.container/ContainerBuilder.Data///Pointin
 $dokka.location:com.skillw.pouvoir.api.container/ContainerBuilder.Flatten///PointingToDeclaration/com/skillw/pouvoir/api/container/ContainerBuilder.Flatten.html
 $dokka.location:com.skillw.pouvoir.api.container/IPersistentContainer.Companion///PointingToDeclaration/com/skillw/pouvoir/api/container/IPersistentContainer.Companion.html
 $dokka.location:com.skillw.pouvoir.api.event/ManagerTime.Companion///PointingToDeclaration/com/skillw/pouvoir/api/event/ManagerTime.Companion.html
-$dokka.location:com.skillw.pouvoir.api.function.action/IAction.Companion///PointingToDeclaration/com/skillw/pouvoir/api/function/action/IAction.Companion.html
+$dokka.location:com.skillw.pouvoir.api.function.action/PouAction.Companion///PointingToDeclaration/com/skillw/pouvoir/api/function/action/PouAction.Companion.html
 $dokka.location:com.skillw.pouvoir.api.function.parser/Parser.Companion///PointingToDeclaration/com/skillw/pouvoir/api/function/parser/Parser.Companion.html
 $dokka.location:com.skillw.pouvoir.api.listener/ScriptListener.Builder///PointingToDeclaration/com/skillw/pouvoir/api/listener/ScriptListener.Builder.html
 $dokka.location:com.skillw.pouvoir.api.manager.sub.script/CompileManager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/sub/script/CompileManager.Companion.html
@@ -13,6 +13,7 @@ $dokka.location:com.skillw.pouvoir.api.manager.sub/ContainerManager.Companion///
 $dokka.location:com.skillw.pouvoir.api.manager/Manager.Companion///PointingToDeclaration/com/skillw/pouvoir/api/manager/Manager.Companion.html
 $dokka.location:com.skillw.pouvoir.api.thread/BasicThreadFactory.Builder///PointingToDeclaration/com/skillw/pouvoir/api/thread/BasicThreadFactory.Builder.html
 $dokka.location:com.skillw.pouvoir.internal.core.function.functions.common.define/FunctionSet.ILazy///PointingToDeclaration/com/skillw/pouvoir/internal/core/function/functions/common/define/FunctionSet.ILazy.html
+$dokka.location:com.skillw.pouvoir.internal.core.function.reader/SimpleReader.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/core/function/reader/SimpleReader.Companion.html
 $dokka.location:com.skillw.pouvoir.internal.core.script.common.pool/TaskStatus.ScriptTask///PointingToDeclaration/com/skillw/pouvoir/internal/core/script/common/pool/TaskStatus.ScriptTask.html
 $dokka.location:com.skillw.pouvoir.internal.feature.hologram/ConcurrentHashSet.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/feature/hologram/ConcurrentHashSet.Companion.html
 $dokka.location:com.skillw.pouvoir.internal.feature.hologram/PouHolo.Companion///PointingToDeclaration/com/skillw/pouvoir/internal/feature/hologram/PouHolo.Companion.html
@@ -25,12 +26,14 @@ com.skillw.pouvoir.api.event
 com.skillw.pouvoir.api.function
 com.skillw.pouvoir.api.function.action
 com.skillw.pouvoir.api.function.context
+com.skillw.pouvoir.api.function.eval
 com.skillw.pouvoir.api.function.parser
 com.skillw.pouvoir.api.function.reader
 com.skillw.pouvoir.api.hologram
 com.skillw.pouvoir.api.listener
 com.skillw.pouvoir.api.manager
 com.skillw.pouvoir.api.manager.sub
+com.skillw.pouvoir.api.manager.sub.function
 com.skillw.pouvoir.api.manager.sub.script
 com.skillw.pouvoir.api.map
 com.skillw.pouvoir.api.object
@@ -46,6 +49,7 @@ com.skillw.pouvoir.internal.core.annotation
 com.skillw.pouvoir.internal.core.function
 com.skillw.pouvoir.internal.core.function.action
 com.skillw.pouvoir.internal.core.function.context
+com.skillw.pouvoir.internal.core.function.eval
 com.skillw.pouvoir.internal.core.function.functions.common.bukkit
 com.skillw.pouvoir.internal.core.function.functions.common.define
 com.skillw.pouvoir.internal.core.function.functions.common.import

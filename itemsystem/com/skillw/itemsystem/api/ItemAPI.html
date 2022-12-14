@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!-- NewPage -->
 <html lang="en"><head>
-    <title>ItemAPI 1.0.0 API </title>
+    <title>ItemAPI 1.0.3 API </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="dc.created" content="2020-03-25">
     <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
@@ -254,15 +254,15 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                         <tr id="i1" class="rowColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#syncLoreNBT(ItemStack,LivingEntity)>syncLoreNBT</a>(ItemStack $self, LivingEntity entity) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#dynamic(ItemStack,LivingEntity)>dynamic</a>(ItemStack $self, LivingEntity entity) </code>
                                             </th>
-                                            <td class="colLast">同步物品的lore和NBT (会直接改变物品本身)</td>
+                                            <td class="colLast">将物品的展示名,描述中的 dynamic 替换成实时内联函数运算的返回值(会直接改变物品本身)</td>
                                         </tr>
                                         
                                         <tr id="i2" class="altColor">
                                             <td class="colFirst"><code>final static ItemStack</code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#update(ItemStack,LivingEntity,Set,Map,Boolean)>update</a>(ItemStack $self, LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt; variables, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Map.html>Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a>&gt; productData, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html>Boolean</a> force) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#update(ItemStack,LivingEntity,Set,Map)>update</a>(ItemStack $self, LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt; variables, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Map.html>Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a>&gt; productData) </code>
                                             </th>
                                             <td class="colLast">更新物品</td>
                                         </tr>
@@ -284,6 +284,22 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                         </tr>
                                         
                                         <tr id="i5" class="rowColor">
+                                            <td class="colFirst"><code>final static <a href=action/ActionType.html>ActionType</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#registerAsyncAction(String)>registerAsyncAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            </th>
+                                            <td class="colLast">注册物品动作</td>
+                                        </tr>
+                                        
+                                        <tr id="i6" class="altColor">
+                                            <td class="colFirst"><code>final static <a href=action/ActionType.html>ActionType</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#registerSyncAction(String)>registerSyncAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key) </code>
+                                            </th>
+                                            <td class="colLast">注册同步物品动作 与当前线程同步</td>
+                                        </tr>
+                                        
+                                        <tr id="i7" class="rowColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ItemAPI.html#callAction(String,LivingEntity,ItemStack,Consumer)>callAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key, LivingEntity entity, ItemStack itemStack, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html>Consumer</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/util/Map.html>Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a>&gt;&gt; receiver) </code>
@@ -291,20 +307,20 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                             <td class="colLast">触发物品动作</td>
                                         </tr>
                                         
-                                        <tr id="i6" class="altColor">
-                                            <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
-                                            </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#syncNBTValues(ItemStack,LivingEntity)>syncNBTValues</a>(ItemStack $self, LivingEntity entity) </code>
-                                            </th>
-                                            <td class="colLast">让物品的展示名和lore与NBT中的值同步 (syncNBT)会直接改变物品</td>
-                                        </tr>
-                                        
-                                        <tr id="i7" class="rowColor">
+                                        <tr id="i8" class="altColor">
                                             <td class="colFirst"><code>final static Item</code>
                                             </td>
                                             <th class="colSecond" scope="row"><code><a href=ItemAPI.html#dropAt(ItemStack,Location,LivingEntity)>dropAt</a>(ItemStack $self, Location location, LivingEntity entity) </code>
                                             </th>
                                             <td class="colLast">掉落，如果物品有掉落技能则会触发技能</td>
+                                        </tr>
+                                        
+                                        <tr id="i9" class="rowColor">
+                                            <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemAPI.html#refresh(ItemStack)>refresh</a>(ItemStack $self) </code>
+                                            </th>
+                                            <td class="colLast">更新物品NBT 用于刷新玩家界面下物品上的 sync NBT / dynamic</td>
                                         </tr>
                                         
                                         </tbody>
@@ -383,16 +399,16 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                     </li>
                                 </ul>
                                 
-                                <a id="syncLoreNBT(ItemStack,LivingEntity)">
+                                <a id="dynamic(ItemStack,LivingEntity)">
                                     <!--   -->
                                 </a>
                                 <ul class=
                                               "blockList"
                                           >
                                     <li class="blockList">
-                                        <h4>syncLoreNBT</h4>
-                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemAPI.html#syncLoreNBT(ItemStack,LivingEntity)>syncLoreNBT</a>(ItemStack $self, LivingEntity entity)</pre>
-                                        <div class="block"><p>同步物品的lore和NBT (会直接改变物品本身)</p></div>
+                                        <h4>dynamic</h4>
+                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemAPI.html#dynamic(ItemStack,LivingEntity)>dynamic</a>(ItemStack $self, LivingEntity entity)</pre>
+                                        <div class="block"><p>将物品的展示名,描述中的 dynamic 替换成实时内联函数运算的返回值(会直接改变物品本身)</p></div>
                                         
                                         <dl>
                                             <dt><span class="paramLabel">Parameters:</span></dt>
@@ -409,7 +425,7 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                     </li>
                                 </ul>
                                 
-                                <a id="update(ItemStack,LivingEntity,Set,Map,Boolean)">
+                                <a id="update(ItemStack,LivingEntity,Set,Map)">
                                     <!--   -->
                                 </a>
                                 <ul class=
@@ -417,7 +433,7 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                           >
                                     <li class="blockList">
                                         <h4>update</h4>
-                                        <pre class="methodSignature"> final static ItemStack <a href=ItemAPI.html#update(ItemStack,LivingEntity,Set,Map,Boolean)>update</a>(ItemStack $self, LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt; variables, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Map.html>Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a>&gt; productData, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html>Boolean</a> force)</pre>
+                                        <pre class="methodSignature"> final static ItemStack <a href=ItemAPI.html#update(ItemStack,LivingEntity,Set,Map)>update</a>(ItemStack $self, LivingEntity entity, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Set.html>Set</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>&gt; variables, <a href=https://docs.oracle.com/javase/8/docs/api/java/util/Map.html>Map</a>&lt;<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a>, <a href=https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html>Object</a>&gt; productData)</pre>
                                         <div class="block"><p>更新物品</p></div>
                                         
                                         <dl>
@@ -435,10 +451,6 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                             
                                             
                                             <dd><code>productData</code> - Map 构造数据(就是变量名和变量值)</dd>
-                                            
-                                            
-                                            
-                                            <dd><code>force</code> - 是否强制更新物品</dd>
                                             
                                             
                                         </dl>
@@ -470,8 +482,56 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                           >
                                     <li class="blockList">
                                         <h4>registerAction</h4>
-                                        <pre class="methodSignature"> final static <a href=action/ActionType.html>ActionType</a> <a href=ItemAPI.html#registerAction(String)>registerAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key)</pre>
+                                        <pre class="methodSignature">@<a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-deprecated/index.html>Deprecated</a>(message = "过时了，请用registerAsyncAction / registerSyncAction", replaceWith = @<a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-replace-with/index.html>ReplaceWith</a>(imports = {}, expression = "registerAsyncAction")) final static <a href=action/ActionType.html>ActionType</a> <a href=ItemAPI.html#registerAction(String)>registerAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key)</pre>
                                         <div class="block"><p>注册物品动作</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - String 物品动作id</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="registerAsyncAction(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>registerAsyncAction</h4>
+                                        <pre class="methodSignature"> final static <a href=action/ActionType.html>ActionType</a> <a href=ItemAPI.html#registerAsyncAction(String)>registerAsyncAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key)</pre>
+                                        <div class="block"><p>注册物品动作</p></div>
+                                        
+                                        <dl>
+                                            <dt><span class="paramLabel">Parameters:</span></dt>
+                                            
+                                            
+                                            <dd><code>key</code> - String 物品动作id</dd>
+                                            
+                                            
+                                        </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="registerSyncAction(String)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>registerSyncAction</h4>
+                                        <pre class="methodSignature"> final static <a href=action/ActionType.html>ActionType</a> <a href=ItemAPI.html#registerSyncAction(String)>registerSyncAction</a>(<a href=https://docs.oracle.com/javase/8/docs/api/java/lang/String.html>String</a> key)</pre>
+                                        <div class="block"><p>注册同步物品动作 与当前线程同步</p></div>
                                         
                                         <dl>
                                             <dt><span class="paramLabel">Parameters:</span></dt>
@@ -522,37 +582,11 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                     </li>
                                 </ul>
                                 
-                                <a id="syncNBTValues(ItemStack,LivingEntity)">
-                                    <!--   -->
-                                </a>
-                                <ul class=
-                                              "blockList"
-                                          >
-                                    <li class="blockList">
-                                        <h4>syncNBTValues</h4>
-                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemAPI.html#syncNBTValues(ItemStack,LivingEntity)>syncNBTValues</a>(ItemStack $self, LivingEntity entity)</pre>
-                                        <div class="block"><p>让物品的展示名和lore与NBT中的值同步 (syncNBT)</p><p>会直接改变物品</p></div>
-                                        
-                                        <dl>
-                                            <dt><span class="paramLabel">Parameters:</span></dt>
-                                            
-                                            
-                                            
-                                            
-                                            <dd><code>entity</code> - LivingEntity 实体</dd>
-                                            
-                                            
-                                        </dl>
-                                        
-                                        <!-- TODO missing return annotation -->
-                                    </li>
-                                </ul>
-                                
                                 <a id="dropAt(ItemStack,Location,LivingEntity)">
                                     <!--   -->
                                 </a>
                                 <ul class=
-                                              "blockListLast"
+                                              "blockList"
                                           >
                                     <li class="blockList">
                                         <h4>dropAt</h4>
@@ -573,6 +607,21 @@ public class <span class="typeNameLabel"><a href=ItemAPI.html>ItemAPI</a></span>
                                             
                                             
                                         </dl>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="refresh(ItemStack)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>refresh</h4>
+                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemAPI.html#refresh(ItemStack)>refresh</a>(ItemStack $self)</pre>
+                                        <div class="block"><p>更新物品NBT 用于刷新玩家界面下物品上的 sync NBT / dynamic</p></div>
                                         
                                         <!-- TODO missing return annotation -->
                                     </li>

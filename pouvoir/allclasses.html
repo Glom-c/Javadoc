@@ -59,9 +59,13 @@
         
             <li><a href=com/skillw/pouvoir/api/function/PouFunction.html>PouFunction</a></li>
         
-            <li><a href=com/skillw/pouvoir/api/function/action/IAction.html>IAction</a></li>
+            <li><a href=com/skillw/pouvoir/api/function/action/ActionExecutor.html>ActionExecutor</a></li>
+        
+            <li><a href=com/skillw/pouvoir/api/function/action/PouAction.html>PouAction</a></li>
         
             <li><a href=com/skillw/pouvoir/api/function/context/IContext.html>IContext</a></li>
+        
+            <li><a href=com/skillw/pouvoir/api/function/eval/BaseEvaluator.html>BaseEvaluator</a></li>
         
             <li><a href=com/skillw/pouvoir/api/function/parser/Parser.html>Parser</a></li>
         
@@ -85,11 +89,13 @@
         
             <li><a href=com/skillw/pouvoir/api/manager/sub/ListenerManager.html>ListenerManager</a></li>
         
-            <li><a href=com/skillw/pouvoir/api/manager/sub/PouFunctionManager.html>PouFunctionManager</a></li>
-        
             <li><a href=com/skillw/pouvoir/api/manager/sub/PouPlaceHolderAPI.html>PouPlaceHolderAPI</a></li>
         
             <li><a href=com/skillw/pouvoir/api/manager/sub/PouPlaceHolderManager.html>PouPlaceHolderManager</a></li>
+        
+            <li><a href=com/skillw/pouvoir/api/manager/sub/function/PouActionManager.html>PouActionManager</a></li>
+        
+            <li><a href=com/skillw/pouvoir/api/manager/sub/function/PouFunctionManager.html>PouFunctionManager</a></li>
         
             <li><a href=com/skillw/pouvoir/api/manager/sub/script/CompileManager.html>CompileManager</a></li>
         
@@ -153,9 +159,13 @@
         
             <li><a href=com/skillw/pouvoir/internal/core/annotation/Placeholder.html>Placeholder</a></li>
         
+            <li><a href=com/skillw/pouvoir/internal/core/annotation/PouPlaceholder.html>PouPlaceholder</a></li>
+        
             <li><a href=com/skillw/pouvoir/internal/core/function/TextHandler.html>TextHandler</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/action/ActionArray.html>ActionArray</a></li>
+        
+            <li><a href=com/skillw/pouvoir/internal/core/function/action/ActionBool.html>ActionBool</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/action/ActionCancellable.html>ActionCancellable</a></li>
         
@@ -178,6 +188,8 @@
             <li><a href=com/skillw/pouvoir/internal/core/function/action/ActionVector.html>ActionVector</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/context/SimpleContext.html>SimpleContext</a></li>
+        
+            <li><a href=com/skillw/pouvoir/internal/core/function/eval/SimpleEvaluator.html>SimpleEvaluator</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/bukkit/FunctionColor.html>FunctionColor</a></li>
         
@@ -225,6 +237,8 @@
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/logic/FunctionReturn.html>FunctionReturn</a></li>
         
+            <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/logic/FunctionWhen.html>FunctionWhen</a></li>
+        
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/loop/FunctionBreak.html>FunctionBreak</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/loop/FunctionContinue.html>FunctionContinue</a></li>
@@ -258,6 +272,8 @@
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/math/FunctionRandomInt.html>FunctionRandomInt</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/math/FunctionRandomObj.html>FunctionRandomObj</a></li>
+        
+            <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/math/FunctionRange.html>FunctionRange</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/math/FunctionRound.html>FunctionRound</a></li>
         
@@ -303,43 +319,41 @@
         
             <li><a href=com/skillw/pouvoir/internal/core/function/functions/common/util/FunctionPairOf.html>FunctionPairOf</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ArrayParser.html>ArrayParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserInt.html>ParserInt</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/IntParser.html>IntParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserLong.html>ParserLong</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/LongParser.html>LongParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserFloat.html>ParserFloat</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/FloatParser.html>FloatParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserDouble.html>ParserDouble</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/DoubleParser.html>DoubleParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserChar.html>ParserChar</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/CharParser.html>CharParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserByte.html>ParserByte</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ByteParser.html>ByteParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserShort.html>ParserShort</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ShortParser.html>ShortParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserBoolean.html>ParserBoolean</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/BooleanParser.html>BooleanParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserArray.html>ParserArray</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/BlockParser.html>BlockParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserBlock.html>ParserBlock</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/FunctionParser.html>FunctionParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserFunction.html>ParserFunction</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ListParser.html>ListParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserList.html>ParserList</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/MapParser.html>MapParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserMap.html>ParserMap</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/PairParser.html>PairParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserPair.html>ParserPair</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/StringParser.html>StringParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserString.html>ParserString</a></li>
         
-            <li><a href=com/skillw/pouvoir/internal/core/function/parser/VarParser.html>VarParser</a></li>
+            <li><a href=com/skillw/pouvoir/internal/core/function/parser/ParserVar.html>ParserVar</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/reader/SimpleReader.html>SimpleReader</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/function/util/MapTemplate.html>MapTemplate</a></li>
-        
-            <li><a href=com/skillw/pouvoir/internal/core/plugin/ActionHandler.html>ActionHandler</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/core/plugin/PouManagerUtils.html>PouManagerUtils</a></li>
         
@@ -398,6 +412,8 @@
             <li><a href=com/skillw/pouvoir/internal/manager/ContainerManagerImpl.html>ContainerManagerImpl</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/manager/ListenerManagerImpl.html>ListenerManagerImpl</a></li>
+        
+            <li><a href=com/skillw/pouvoir/internal/manager/PouActionManagerImpl.html>PouActionManagerImpl</a></li>
         
             <li><a href=com/skillw/pouvoir/internal/manager/PouConfig.html>PouConfig</a></li>
         

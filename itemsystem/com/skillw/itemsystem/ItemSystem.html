@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!-- NewPage -->
 <html lang="en"><head>
-    <title>ItemSystem 1.0.0 API </title>
+    <title>ItemSystem 1.0.3 API </title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="dc.created" content="2020-03-25">
     <link rel="stylesheet" type="text/css" href="../../../stylesheet.css" title="Style">
@@ -214,26 +214,38 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         </tr>
                                         
                                         <tr class="altColor">
+                                            <td class="colFirst"><code>private  static <a href=api/manager/OptionManager.html>OptionManager</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#optionManager>optionManager</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
                                             <td class="colFirst"><code>private  static <a href=api/manager/MetaManager.html>MetaManager</a></code></td>
                                             <th class="colSecond" scope="row"><code><a href=ItemSystem.html#metaManager>metaManager</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr class="rowColor">
+                                        <tr class="altColor">
                                             <td class="colFirst"><code>private  static <a href=api/manager/ItemBuilderManager.html>ItemBuilderManager</a></code></td>
                                             <th class="colSecond" scope="row"><code><a href=ItemSystem.html#itemBuilderManager>itemBuilderManager</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr class="altColor">
+                                        <tr class="rowColor">
                                             <td class="colFirst"><code>private  static <a href=api/manager/GlobalManager.html>GlobalManager</a></code></td>
                                             <th class="colSecond" scope="row"><code><a href=ItemSystem.html#globalManager>globalManager</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
-                                        <tr class="rowColor">
+                                        <tr class="altColor">
                                             <td class="colFirst"><code>private  static <a href=api/manager/VarTypeManager.html>VarTypeManager</a></code></td>
                                             <th class="colSecond" scope="row"><code><a href=ItemSystem.html#varTypeManager>varTypeManager</a></code></th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr class="rowColor">
+                                            <td class="colFirst"><code>private  static <a href=api/manager/ActionTypeManager.html>ActionTypeManager</a></code></td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#actionTypeManager>actionTypeManager</a></code></th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
@@ -421,9 +433,9 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         </tr>
                                         
                                         <tr id="i13" class="rowColor">
-                                            <td class="colFirst"><code>final static <a href=api/manager/MetaManager.html>MetaManager</a></code>
+                                            <td class="colFirst"><code>final static <a href=api/manager/OptionManager.html>OptionManager</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getMetaManager()>getMetaManager</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getOptionManager()>getOptionManager</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -431,15 +443,15 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         <tr id="i14" class="altColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setMetaManager(MetaManager)>setMetaManager</a>(static <a href=api/manager/MetaManager.html>MetaManager</a> metaManager) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setOptionManager(OptionManager)>setOptionManager</a>(static <a href=api/manager/OptionManager.html>OptionManager</a> optionManager) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i15" class="rowColor">
-                                            <td class="colFirst"><code>final static <a href=api/manager/ItemBuilderManager.html>ItemBuilderManager</a></code>
+                                            <td class="colFirst"><code>final static <a href=api/manager/MetaManager.html>MetaManager</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getItemBuilderManager()>getItemBuilderManager</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getMetaManager()>getMetaManager</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -447,15 +459,15 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         <tr id="i16" class="altColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setItemBuilderManager(ItemBuilderManager)>setItemBuilderManager</a>(static <a href=api/manager/ItemBuilderManager.html>ItemBuilderManager</a> itemBuilderManager) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setMetaManager(MetaManager)>setMetaManager</a>(static <a href=api/manager/MetaManager.html>MetaManager</a> metaManager) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i17" class="rowColor">
-                                            <td class="colFirst"><code>final static <a href=api/manager/GlobalManager.html>GlobalManager</a></code>
+                                            <td class="colFirst"><code>final static <a href=api/manager/ItemBuilderManager.html>ItemBuilderManager</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getGlobalManager()>getGlobalManager</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getItemBuilderManager()>getItemBuilderManager</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -463,15 +475,15 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         <tr id="i18" class="altColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setGlobalManager(GlobalManager)>setGlobalManager</a>(static <a href=api/manager/GlobalManager.html>GlobalManager</a> globalManager) </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setItemBuilderManager(ItemBuilderManager)>setItemBuilderManager</a>(static <a href=api/manager/ItemBuilderManager.html>ItemBuilderManager</a> itemBuilderManager) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
                                         
                                         <tr id="i19" class="rowColor">
-                                            <td class="colFirst"><code>final static <a href=api/manager/VarTypeManager.html>VarTypeManager</a></code>
+                                            <td class="colFirst"><code>final static <a href=api/manager/GlobalManager.html>GlobalManager</a></code>
                                             </td>
-                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getVarTypeManager()>getVarTypeManager</a>() </code>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getGlobalManager()>getGlobalManager</a>() </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -479,7 +491,39 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                         <tr id="i20" class="altColor">
                                             <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
                                             </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setGlobalManager(GlobalManager)>setGlobalManager</a>(static <a href=api/manager/GlobalManager.html>GlobalManager</a> globalManager) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i21" class="rowColor">
+                                            <td class="colFirst"><code>final static <a href=api/manager/VarTypeManager.html>VarTypeManager</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getVarTypeManager()>getVarTypeManager</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i22" class="altColor">
+                                            <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
                                             <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setVarTypeManager(VarTypeManager)>setVarTypeManager</a>(static <a href=api/manager/VarTypeManager.html>VarTypeManager</a> varTypeManager) </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i23" class="rowColor">
+                                            <td class="colFirst"><code>final static <a href=api/manager/ActionTypeManager.html>ActionTypeManager</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#getActionTypeManager()>getActionTypeManager</a>() </code>
+                                            </th>
+                                            <td class="colLast"></td>
+                                        </tr>
+                                        
+                                        <tr id="i24" class="altColor">
+                                            <td class="colFirst"><code>final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a></code>
+                                            </td>
+                                            <th class="colSecond" scope="row"><code><a href=ItemSystem.html#setActionTypeManager(ActionTypeManager)>setActionTypeManager</a>(static <a href=api/manager/ActionTypeManager.html>ActionTypeManager</a> actionTypeManager) </code>
                                             </th>
                                             <td class="colLast"></td>
                                         </tr>
@@ -729,6 +773,36 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                     </li>
                                 </ul>
                                 
+                                <a id="getOptionManager()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getOptionManager</h4>
+                                        <pre class="methodSignature"> final static <a href=api/manager/OptionManager.html>OptionManager</a> <a href=ItemSystem.html#getOptionManager()>getOptionManager</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setOptionManager(OptionManager)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setOptionManager</h4>
+                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemSystem.html#setOptionManager(OptionManager)>setOptionManager</a>(static <a href=api/manager/OptionManager.html>OptionManager</a> optionManager)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
                                 <a id="getMetaManager()">
                                     <!--   -->
                                 </a>
@@ -838,11 +912,41 @@ extends Plugin implements <a href=https://doc.skillw.com/pouvoir/com/skillw/pouv
                                     <!--   -->
                                 </a>
                                 <ul class=
-                                              "blockListLast"
+                                              "blockList"
                                           >
                                     <li class="blockList">
                                         <h4>setVarTypeManager</h4>
                                         <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemSystem.html#setVarTypeManager(VarTypeManager)>setVarTypeManager</a>(static <a href=api/manager/VarTypeManager.html>VarTypeManager</a> varTypeManager)</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="getActionTypeManager()">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockList"
+                                          >
+                                    <li class="blockList">
+                                        <h4>getActionTypeManager</h4>
+                                        <pre class="methodSignature"> final static <a href=api/manager/ActionTypeManager.html>ActionTypeManager</a> <a href=ItemSystem.html#getActionTypeManager()>getActionTypeManager</a>()</pre>
+                                        <div class="block"></div>
+                                        
+                                        <!-- TODO missing return annotation -->
+                                    </li>
+                                </ul>
+                                
+                                <a id="setActionTypeManager(ActionTypeManager)">
+                                    <!--   -->
+                                </a>
+                                <ul class=
+                                              "blockListLast"
+                                          >
+                                    <li class="blockList">
+                                        <h4>setActionTypeManager</h4>
+                                        <pre class="methodSignature"> final static <a href=https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html>Unit</a> <a href=ItemSystem.html#setActionTypeManager(ActionTypeManager)>setActionTypeManager</a>(static <a href=api/manager/ActionTypeManager.html>ActionTypeManager</a> actionTypeManager)</pre>
                                         <div class="block"></div>
                                         
                                         <!-- TODO missing return annotation -->

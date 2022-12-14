@@ -1,6 +1,5 @@
 $dokka.format:javadoc-v1
 $dokka.linkExtension:html
-$dokka.location:com.skillw.itemsystem.api.action/ActionType.Companion///PointingToDeclaration/com/skillw/itemsystem/api/action/ActionType.Companion.html
 $dokka.location:com.skillw.itemsystem.api.builder/ItemData.Companion///PointingToDeclaration/com/skillw/itemsystem/api/builder/ItemData.Companion.html
 $dokka.location:com.skillw.itemsystem.api.event/ItemBuildEvent.After///PointingToDeclaration/com/skillw/itemsystem/api/event/ItemBuildEvent.After.html
 $dokka.location:com.skillw.itemsystem.api.event/ItemBuildEvent.Building///PointingToDeclaration/com/skillw/itemsystem/api/event/ItemBuildEvent.Building.html
@@ -25,6 +24,7 @@ com.skillw.itemsystem.api.glow
 com.skillw.itemsystem.api.manager
 com.skillw.itemsystem.api.meta
 com.skillw.itemsystem.api.meta.data
+com.skillw.itemsystem.api.option
 com.skillw.itemsystem.api.vartype
 com.skillw.itemsystem.internal.command
 com.skillw.itemsystem.internal.command.sub
@@ -40,6 +40,7 @@ com.skillw.itemsystem.internal.core.meta.bukkit.skull
 com.skillw.itemsystem.internal.core.meta.data
 com.skillw.itemsystem.internal.core.meta.define
 com.skillw.itemsystem.internal.core.meta.eval
+com.skillw.itemsystem.internal.core.option
 com.skillw.itemsystem.internal.core.vartype
 com.skillw.itemsystem.internal.feature
 com.skillw.itemsystem.internal.feature.block
